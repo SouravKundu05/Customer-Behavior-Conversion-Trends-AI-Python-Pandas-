@@ -1,0 +1,1001 @@
+customer_id,name,age,gender,location,salary,signup_date,referral_source,customer_status,preferred_device,avg_session_time,app_version,total_purchases,total_spend
+1,Customer_1,56,Male,Tier 2,115159.21,2024-10-25 00:07:28.144311,Organic,Active,Desktop,7.5,v3.7.4,3,257.15
+2,Customer_2,20,Female,Metro,146088.28,2024-11-25 00:07:28.144311,Ad Campaign,New,Mobile,20.44,v2.5.8,16,2899.1
+3,Customer_3,59,Non-binary,Tier 1,31778.84,2024-10-24 00:07:28.144311,Referral,Active,Mobile,6.16,v3.6.4,8,530.1
+4,Customer_4,21,Male,Rural,93227.47,2024-12-16 00:07:28.144311,Ad Campaign,New,Desktop,22.08,v1.7.2,13,1920.95
+5,Customer_5,67,Female,Tier 1,87608.84,2024-12-21 00:07:28.144311,Ad Campaign,New,Tablet,24.38,v2.3.7,13,1286.94
+6,Customer_6,57,Male,Rural,117151.61,2024-11-02 00:07:28.144311,Social Media,Active,Mobile,8.52,v3.0.8,6,935.1
+7,Customer_7,18,Non-binary,Tier 2,45849.51,2024-12-17 00:07:28.144311,Referral,Active,Desktop,6.85,v3.8.6,8,1646.6
+8,Customer_8,51,Male,Rural,68206.37,2024-10-24 00:07:28.144311,Social Media,Active,Tablet,27.18,v1.2.4,14,3196.36
+9,Customer_9,18,Male,Tier 1,50678.04,2024-12-11 00:07:28.144311,Referral,New,Desktop,15.69,v2.2.6,16,2057.42
+10,Customer_10,49,Female,Metro,52407.99,2024-12-10 00:07:28.144311,Referral,Active,Mobile,6.92,v3.2.5,1,206.09
+11,Customer_11,23,Female,Tier 1,90114.49,2024-09-27 00:07:28.144311,Referral,Inactive,Mobile,10.7,v2.8.3,12,3182.19
+12,Customer_12,56,Female,Rural,89431.62,2024-10-24 00:07:28.144311,Organic,Active,Tablet,13.44,v3.5.7,8,1207.67
+13,Customer_13,66,Female,Rural,52093.89,2024-11-16 00:07:28.144311,Ad Campaign,Active,Mobile,12.12,v1.0.1,1,152.76
+14,Customer_14,40,Male,Rural,138074.57,2024-12-06 00:07:28.144311,Ad Campaign,Active,Tablet,29.64,v3.3.6,10,1424.14
+15,Customer_15,34,Non-binary,Tier 1,67811.81,2024-10-16 00:07:28.144311,Ad Campaign,Active,Mobile,8.77,v3.5.2,19,2498.3
+16,Customer_16,53,Non-binary,Tier 1,86572.1,2024-12-06 00:07:28.144311,Social Media,Active,Mobile,22.27,v3.1.7,0,0.0
+17,Customer_17,42,Female,Tier 2,90388.24,2024-11-13 00:07:28.144311,Referral,Active,Tablet,29.55,v1.1.0,15,4370.32
+18,Customer_18,22,Male,Rural,102303.19,2024-12-16 00:07:28.144311,Organic,Active,Desktop,26.41,v2.7.0,19,1349.66
+19,Customer_19,25,Female,Rural,98835.78,2024-09-27 00:07:28.144311,Referral,Inactive,Tablet,9.02,v2.1.5,2,425.98
+20,Customer_20,58,Male,Rural,50842.38,2024-12-04 00:07:28.144311,Social Media,Active,Desktop,23.02,v1.2.5,13,2567.08
+21,Customer_21,55,Male,Tier 2,135966.05,2024-11-28 00:07:28.144311,Referral,Active,Tablet,21.13,v3.0.4,15,1802.9
+22,Customer_22,52,Male,Rural,43024.39,2024-11-25 00:07:28.144311,Organic,Active,Tablet,14.25,v1.4.7,16,3011.06
+23,Customer_23,48,Non-binary,Rural,130891.23,2024-10-23 00:07:28.144311,Organic,Active,Desktop,11.71,v3.1.8,9,2556.35
+24,Customer_24,20,Female,Rural,47159.43,2024-11-08 00:07:28.144311,Ad Campaign,Active,Desktop,17.96,v2.0.7,0,0.0
+25,Customer_25,65,Non-binary,Metro,58546.32,2024-11-29 00:07:28.144311,Referral,Active,Mobile,7.04,v3.8.3,12,1182.82
+26,Customer_26,25,Female,Rural,26599.91,2024-09-29 00:07:28.144311,Referral,Active,Tablet,15.96,v3.5.2,16,949.39
+27,Customer_27,23,Non-binary,Tier 1,89820.72,2024-12-17 00:07:28.144311,Organic,Active,Mobile,16.43,v2.3.2,7,1620.66
+28,Customer_28,30,Female,Rural,112897.36,2024-12-06 00:07:28.144311,Organic,Active,Desktop,15.97,v3.4.4,8,1777.0
+29,Customer_29,18,Female,Tier 1,40336.82,2024-11-21 00:07:28.144311,Social Media,Active,Mobile,21.5,v1.0.6,4,811.72
+30,Customer_30,20,Female,Rural,40624.04,2024-09-30 00:07:28.144311,Organic,Active,Mobile,7.35,v2.3.4,11,597.19
+31,Customer_31,43,Male,Tier 2,65019.56,2024-12-02 00:07:28.144311,Ad Campaign,Active,Mobile,27.17,v3.2.0,4,883.96
+32,Customer_32,33,Non-binary,Tier 1,23446.47,2024-11-23 00:07:28.144311,Referral,Inactive,Tablet,19.33,v1.0.2,10,2853.66
+33,Customer_33,20,Male,Metro,104693.02,2024-11-12 00:07:28.144311,Social Media,Active,Desktop,14.43,v1.2.1,2,268.28
+34,Customer_34,43,Male,Tier 1,108609.78,2024-11-21 00:07:28.144311,Referral,Active,Tablet,22.42,v1.7.3,3,283.08
+35,Customer_35,26,Non-binary,Metro,115114.21,2024-11-19 00:07:28.144311,Ad Campaign,Active,Desktop,28.27,v1.0.6,12,2819.73
+36,Customer_36,52,Male,Tier 1,137331.88,2024-10-24 00:07:28.144311,Social Media,Inactive,Tablet,12.44,v3.0.3,11,3185.99
+37,Customer_37,36,Male,Tier 2,144384.12,2024-11-03 00:07:28.144311,Referral,Active,Mobile,7.29,v1.3.4,3,859.65
+38,Customer_38,33,Male,Tier 2,31856.79,2024-11-13 00:07:28.144311,Ad Campaign,New,Desktop,6.4,v3.6.1,14,1200.47
+39,Customer_39,27,Female,Rural,132692.93,2024-12-18 00:07:28.144311,Ad Campaign,Active,Tablet,14.92,v3.1.4,4,433.23
+40,Customer_40,25,Male,Metro,134446.8,2024-12-08 00:07:28.144311,Referral,Inactive,Mobile,23.83,v2.2.5,6,936.33
+41,Customer_41,43,Non-binary,Tier 2,76478.74,2024-11-10 00:07:28.144311,Organic,Active,Tablet,6.41,v1.8.6,0,0.0
+42,Customer_42,45,Female,Metro,68733.18,2024-11-30 00:07:28.144311,Social Media,Active,Mobile,29.08,v1.4.5,10,2797.79
+43,Customer_43,53,Non-binary,Tier 2,146009.33,2024-12-07 00:07:28.144311,Referral,Active,Tablet,12.36,v1.4.5,2,550.58
+44,Customer_44,28,Female,Rural,27522.31,2024-10-10 00:07:28.144311,Social Media,Active,Tablet,9.7,v2.7.1,4,1174.39
+45,Customer_45,44,Female,Tier 2,89692.53,2024-11-22 00:07:28.144311,Organic,Inactive,Mobile,8.33,v3.5.1,18,4165.74
+46,Customer_46,64,Male,Tier 1,30757.29,2024-11-25 00:07:28.144311,Ad Campaign,Active,Mobile,5.66,v1.5.0,17,5045.92
+47,Customer_47,66,Non-binary,Metro,117445.18,2024-09-27 00:07:28.144311,Ad Campaign,Inactive,Mobile,25.96,v2.8.2,0,0.0
+48,Customer_48,23,Male,Metro,149963.3,2024-12-22 00:07:28.144311,Organic,Active,Mobile,28.62,v2.2.0,13,1316.4
+49,Customer_49,18,Non-binary,Metro,98802.7,2024-10-24 00:07:28.144311,Organic,Active,Tablet,13.95,v3.1.5,2,360.08
+50,Customer_50,29,Male,Tier 1,145836.59,2024-10-29 00:07:28.144311,Organic,Active,Desktop,15.51,v1.4.1,10,1032.41
+51,Customer_51,55,Female,Tier 1,99051.42,2024-10-04 00:07:28.144311,Ad Campaign,Active,Desktop,27.6,v1.5.0,14,2087.9
+52,Customer_52,59,Non-binary,Metro,143437.68,2024-12-21 00:07:28.144311,Ad Campaign,Inactive,Tablet,24.22,v1.1.5,1,132.19
+53,Customer_53,60,Non-binary,Rural,64403.22,2024-12-02 00:07:28.144311,Referral,Active,Desktop,8.47,v1.2.2,17,3408.23
+54,Customer_54,68,Non-binary,Metro,41961.56,2024-11-13 00:07:28.144311,Organic,New,Tablet,8.02,v1.1.0,13,1722.82
+55,Customer_55,44,Male,Tier 1,123923.35,2024-09-30 00:07:28.144311,Referral,Active,Desktop,28.02,v1.0.3,0,0.0
+56,Customer_56,52,Male,Rural,47215.41,2024-10-30 00:07:28.144311,Ad Campaign,Active,Desktop,18.28,v2.7.2,6,1330.75
+57,Customer_57,40,Female,Tier 2,89174.75,2024-12-07 00:07:28.144311,Ad Campaign,Active,Desktop,11.06,v1.6.4,9,1718.92
+58,Customer_58,34,Non-binary,Tier 1,62574.66,2024-11-11 00:07:28.144311,Organic,Inactive,Mobile,21.98,v3.8.1,14,2744.7
+59,Customer_59,39,Female,Tier 2,116907.13,2024-10-03 00:07:28.144311,Ad Campaign,Active,Tablet,27.49,v2.7.5,4,1133.69
+60,Customer_60,39,Male,Tier 1,67496.39,2024-12-21 00:07:28.144311,Ad Campaign,Active,Tablet,25.15,v3.8.6,2,362.26
+61,Customer_61,57,Male,Rural,149643.22,2024-12-19 00:07:28.144311,Ad Campaign,Active,Desktop,26.64,v2.5.0,5,1085.8
+62,Customer_62,19,Non-binary,Tier 2,94309.65,2024-11-04 00:07:28.144311,Organic,Active,Tablet,29.2,v3.3.0,19,2101.45
+63,Customer_63,64,Male,Tier 1,119811.34,2024-11-17 00:07:28.144311,Organic,Active,Desktop,17.03,v3.2.0,5,670.76
+64,Customer_64,27,Male,Tier 2,91359.86,2024-12-23 00:07:28.144311,Organic,Active,Mobile,8.47,v1.0.8,10,1682.92
+65,Customer_65,55,Non-binary,Tier 2,65352.87,2024-11-06 00:07:28.144311,Organic,Inactive,Tablet,8.11,v3.8.1,11,1592.88
+66,Customer_66,18,Female,Rural,129437.74,2024-10-14 00:07:28.144311,Referral,Active,Tablet,24.99,v3.4.4,4,435.69
+67,Customer_67,31,Female,Tier 1,66647.96,2024-11-13 00:07:28.144311,Organic,Active,Desktop,22.84,v3.5.0,14,2721.2
+68,Customer_68,34,Male,Tier 2,69905.86,2024-10-08 00:07:28.144311,Organic,Inactive,Desktop,18.57,v2.5.2,6,1395.82
+69,Customer_69,59,Non-binary,Tier 2,100609.46,2024-11-28 00:07:28.144311,Social Media,Inactive,Mobile,12.79,v1.6.0,3,577.42
+70,Customer_70,27,Male,Tier 2,118102.59,2024-11-17 00:07:28.144311,Organic,Active,Mobile,8.19,v3.7.4,14,2131.34
+71,Customer_71,62,Female,Tier 2,103349.19,2024-11-19 00:07:28.144311,Social Media,Active,Desktop,13.64,v3.7.5,5,751.06
+72,Customer_72,64,Female,Tier 1,99943.53,2024-09-26 00:07:28.144311,Organic,Active,Tablet,20.29,v3.7.3,15,3362.44
+73,Customer_73,54,Non-binary,Tier 1,120262.07,2024-11-24 00:07:28.144311,Ad Campaign,New,Desktop,23.41,v1.5.6,0,0.0
+74,Customer_74,38,Female,Tier 1,44221.71,2024-09-29 00:07:28.144311,Organic,Active,Tablet,17.97,v3.4.8,8,811.16
+75,Customer_75,43,Male,Tier 2,71761.93,2024-11-30 00:07:28.144311,Ad Campaign,Inactive,Tablet,16.64,v3.1.0,10,582.12
+76,Customer_76,68,Female,Rural,95092.15,2024-11-03 00:07:28.144311,Ad Campaign,New,Mobile,14.06,v3.5.1,16,1512.14
+77,Customer_77,37,Male,Metro,92449.7,2024-09-30 00:07:28.144311,Social Media,Active,Mobile,12.49,v1.6.2,18,2472.24
+78,Customer_78,47,Male,Metro,24751.46,2024-11-25 00:07:28.144311,Social Media,Active,Tablet,12.35,v3.1.1,16,2403.05
+79,Customer_79,55,Non-binary,Tier 2,33387.59,2024-12-17 00:07:28.144311,Organic,New,Desktop,14.33,v2.2.1,0,0.0
+80,Customer_80,45,Female,Tier 2,105660.11,2024-10-21 00:07:28.144311,Organic,Active,Desktop,21.8,v1.7.5,14,2693.05
+81,Customer_81,68,Male,Rural,50963.76,2024-11-21 00:07:28.144311,Referral,Active,Tablet,20.08,v2.3.3,4,341.08
+82,Customer_82,31,Non-binary,Tier 2,136523.66,2024-12-18 00:07:28.144311,Ad Campaign,New,Desktop,26.2,v1.2.3,17,4643.85
+83,Customer_83,64,Male,Rural,63662.56,2024-12-23 00:07:28.144311,Referral,Active,Mobile,13.63,v2.8.1,11,1153.65
+84,Customer_84,39,Male,Tier 1,93550.96,2024-10-27 00:07:28.144311,Ad Campaign,Active,Mobile,17.12,v1.8.7,1,208.37
+85,Customer_85,56,Male,Tier 1,103857.04,2024-12-21 00:07:28.144311,Ad Campaign,Active,Mobile,22.28,v1.5.1,9,1747.16
+86,Customer_86,55,Female,Metro,72682.25,2024-10-10 00:07:28.144311,Referral,Active,Tablet,8.42,v1.5.7,1,200.13
+87,Customer_87,24,Female,Metro,128953.91,2024-10-01 00:07:28.144311,Social Media,Active,Tablet,6.17,v2.0.2,3,728.24
+88,Customer_88,46,Male,Tier 2,57530.19,2024-11-19 00:07:28.144311,Organic,Active,Desktop,28.73,v3.7.5,4,683.75
+89,Customer_89,53,Non-binary,Rural,41061.8,2024-10-05 00:07:28.144311,Ad Campaign,Inactive,Desktop,13.36,v2.1.4,8,550.28
+90,Customer_90,34,Male,Metro,111640.32,2024-11-13 00:07:28.144311,Organic,Active,Desktop,6.94,v3.5.1,11,1542.68
+91,Customer_91,61,Non-binary,Tier 2,145072.84,2024-12-08 00:07:28.144311,Ad Campaign,Active,Mobile,9.63,v2.7.2,7,1468.16
+92,Customer_92,34,Non-binary,Metro,109995.95,2024-10-16 00:07:28.144311,Social Media,Active,Mobile,21.17,v3.8.6,16,1522.3
+93,Customer_93,38,Female,Tier 1,60671.13,2024-10-07 00:07:28.144311,Organic,Active,Desktop,28.11,v2.6.1,19,4961.61
+94,Customer_94,35,Non-binary,Tier 1,103791.06,2024-12-11 00:07:28.144311,Referral,Active,Mobile,6.92,v1.7.6,11,2124.18
+95,Customer_95,66,Male,Tier 1,61437.83,2024-10-04 00:07:28.144311,Organic,Inactive,Tablet,26.92,v2.6.2,9,2678.27
+96,Customer_96,30,Male,Tier 1,142078.8,2024-11-16 00:07:28.144311,Ad Campaign,Active,Tablet,7.21,v2.4.8,15,4026.29
+97,Customer_97,64,Male,Tier 1,31920.91,2024-10-02 00:07:28.144311,Organic,Active,Mobile,7.76,v2.7.1,3,686.66
+98,Customer_98,54,Male,Rural,22323.61,2024-10-07 00:07:28.144311,Organic,Active,Mobile,21.99,v3.4.4,10,1971.39
+99,Customer_99,56,Non-binary,Tier 1,98103.8,2024-10-24 00:07:28.144311,Organic,Inactive,Desktop,29.78,v3.7.3,18,3207.1
+100,Customer_100,27,Non-binary,Tier 1,69931.78,2024-11-14 00:07:28.144311,Organic,Inactive,Tablet,25.02,v2.6.0,8,2255.5
+101,Customer_101,66,Male,Tier 2,71511.46,2024-11-05 00:07:28.144311,Ad Campaign,Active,Desktop,25.4,v2.7.8,8,2189.84
+102,Customer_102,54,Female,Tier 2,134069.91,2024-10-19 00:07:28.144311,Referral,Active,Mobile,6.11,v2.8.7,4,935.21
+103,Customer_103,51,Non-binary,Tier 1,53767.99,2024-12-20 00:07:28.144311,Social Media,Active,Tablet,29.05,v1.4.0,17,2954.37
+104,Customer_104,49,Female,Metro,137846.78,2024-10-19 00:07:28.144311,Social Media,Active,Desktop,26.61,v1.5.7,18,4806.72
+105,Customer_105,45,Male,Tier 2,132748.25,2024-11-14 00:07:28.144311,Organic,Inactive,Mobile,28.25,v3.5.6,4,1080.87
+106,Customer_106,68,Non-binary,Tier 2,20668.87,2024-11-23 00:07:28.144311,Referral,Active,Desktop,9.02,v2.6.1,12,2450.78
+107,Customer_107,66,Male,Metro,35059.7,2024-10-26 00:07:28.144311,Social Media,Active,Desktop,8.21,v3.6.8,1,135.47
+108,Customer_108,32,Female,Metro,33326.26,2024-10-18 00:07:28.144311,Social Media,Active,Tablet,28.68,v1.5.0,9,1515.54
+109,Customer_109,39,Female,Rural,25946.46,2024-11-05 00:07:28.144311,Ad Campaign,Inactive,Mobile,16.15,v3.2.3,11,617.61
+110,Customer_110,28,Male,Tier 1,68338.36,2024-11-23 00:07:28.144311,Referral,Active,Desktop,16.15,v2.1.3,16,1208.77
+111,Customer_111,58,Non-binary,Tier 2,123325.24,2024-11-26 00:07:28.144311,Referral,Active,Tablet,24.32,v2.2.0,11,636.08
+112,Customer_112,46,Male,Tier 2,74564.55,2024-10-27 00:07:28.144311,Social Media,Active,Mobile,16.06,v3.0.5,14,3310.43
+113,Customer_113,52,Male,Metro,112940.13,2024-12-07 00:07:28.144311,Referral,Active,Desktop,29.2,v2.8.0,7,1699.11
+114,Customer_114,63,Female,Rural,22322.05,2024-10-22 00:07:28.144311,Social Media,New,Tablet,20.42,v2.8.6,16,3229.23
+115,Customer_115,37,Male,Tier 1,49320.22,2024-10-26 00:07:28.144311,Referral,Active,Mobile,11.72,v3.0.7,17,3741.94
+116,Customer_116,35,Female,Tier 2,98002.67,2024-11-23 00:07:28.144311,Referral,Active,Mobile,28.82,v1.7.5,18,1372.19
+117,Customer_117,34,Male,Tier 1,38524.42,2024-10-06 00:07:28.144311,Ad Campaign,Active,Mobile,18.99,v2.0.1,0,0.0
+118,Customer_118,30,Female,Metro,127186.83,2024-11-29 00:07:28.144311,Ad Campaign,Active,Tablet,19.19,v2.1.1,9,826.84
+119,Customer_119,66,Non-binary,Metro,111841.84,2024-12-19 00:07:28.144311,Organic,Inactive,Desktop,20.32,v1.1.7,7,1599.65
+120,Customer_120,37,Female,Tier 2,125927.26,2024-12-18 00:07:28.144311,Referral,Inactive,Tablet,25.43,v2.2.8,9,1436.87
+121,Customer_121,35,Female,Rural,52123.42,2024-12-12 00:07:28.144311,Organic,Inactive,Tablet,13.23,v2.3.7,18,1627.53
+122,Customer_122,23,Female,Tier 2,49699.12,2024-10-30 00:07:28.144311,Organic,Active,Tablet,15.08,v1.5.0,6,993.93
+123,Customer_123,47,Male,Tier 2,74067.96,2024-12-01 00:07:28.144311,Social Media,Active,Tablet,29.69,v2.0.2,8,1277.23
+124,Customer_124,51,Female,Tier 2,137091.24,2024-12-19 00:07:28.144311,Referral,Active,Desktop,12.1,v1.2.1,7,1813.0
+125,Customer_125,50,Non-binary,Tier 1,113057.25,2024-09-29 00:07:28.144311,Ad Campaign,Active,Tablet,17.82,v1.4.5,12,1911.5
+126,Customer_126,64,Female,Rural,95323.94,2024-10-02 00:07:28.144311,Ad Campaign,New,Mobile,14.78,v1.1.2,4,209.03
+127,Customer_127,18,Male,Tier 2,78992.64,2024-12-14 00:07:28.144311,Ad Campaign,New,Tablet,13.27,v1.8.0,4,448.71
+128,Customer_128,60,Male,Metro,41715.45,2024-10-02 00:07:28.144311,Social Media,New,Mobile,13.92,v1.0.0,11,1777.51
+129,Customer_129,64,Non-binary,Tier 1,46759.36,2024-10-25 00:07:28.144311,Social Media,Active,Tablet,8.07,v1.3.0,2,326.1
+130,Customer_130,22,Male,Metro,96007.19,2024-12-13 00:07:28.144311,Ad Campaign,Active,Tablet,29.13,v3.1.8,17,4985.67
+131,Customer_131,56,Non-binary,Rural,87027.48,2024-11-05 00:07:28.144311,Referral,Active,Desktop,5.75,v1.3.1,9,2099.02
+132,Customer_132,25,Female,Metro,32207.09,2024-12-17 00:07:28.144311,Organic,Active,Mobile,29.08,v3.1.0,10,2208.12
+133,Customer_133,67,Female,Metro,128014.03,2024-11-08 00:07:28.144311,Social Media,Active,Desktop,28.27,v2.3.0,0,0.0
+134,Customer_134,33,Female,Metro,106706.3,2024-09-26 00:07:28.144311,Ad Campaign,Active,Tablet,20.12,v3.8.0,8,2386.67
+135,Customer_135,30,Male,Metro,93712.11,2024-10-11 00:07:28.144311,Social Media,Active,Tablet,13.18,v2.2.5,1,240.57
+136,Customer_136,58,Non-binary,Tier 2,132957.08,2024-12-24 00:07:28.144311,Social Media,Active,Desktop,5.14,v3.0.6,14,3134.14
+137,Customer_137,46,Male,Metro,50880.74,2024-11-20 00:07:28.144311,Social Media,New,Desktop,20.09,v2.1.8,2,371.18
+138,Customer_138,25,Female,Tier 1,138850.75,2024-11-29 00:07:28.144311,Organic,Active,Tablet,18.17,v3.3.6,5,1183.59
+139,Customer_139,61,Non-binary,Tier 2,22370.24,2024-12-02 00:07:28.144311,Referral,New,Desktop,6.78,v3.8.3,10,1450.19
+140,Customer_140,21,Male,Metro,65710.95,2024-11-21 00:07:28.144311,Ad Campaign,Active,Mobile,12.12,v3.2.7,15,1086.1
+141,Customer_141,47,Female,Tier 1,55441.12,2024-12-21 00:07:28.144311,Ad Campaign,Active,Desktop,8.08,v2.6.6,16,3069.25
+142,Customer_142,59,Female,Tier 2,126047.32,2024-11-11 00:07:28.144311,Social Media,Active,Desktop,28.79,v3.5.5,8,1987.49
+143,Customer_143,32,Female,Rural,73433.7,2024-11-13 00:07:28.144311,Social Media,Active,Mobile,10.92,v1.3.1,18,4730.28
+144,Customer_144,56,Female,Metro,32419.59,2024-11-19 00:07:28.144311,Ad Campaign,Active,Tablet,8.82,v1.2.1,0,0.0
+145,Customer_145,34,Female,Rural,60595.33,2024-11-20 00:07:28.144311,Social Media,Active,Desktop,10.8,v2.8.8,1,118.64
+146,Customer_146,24,Male,Tier 1,72561.44,2024-11-16 00:07:28.144311,Organic,Active,Desktop,13.53,v2.2.3,5,972.98
+147,Customer_147,56,Male,Tier 1,54436.41,2024-11-19 00:07:28.144311,Referral,Active,Mobile,10.67,v1.6.3,12,2157.18
+148,Customer_148,19,Male,Rural,50382.57,2024-12-04 00:07:28.144311,Social Media,Inactive,Tablet,22.0,v1.2.5,5,315.42
+149,Customer_149,61,Female,Tier 1,92511.84,2024-09-29 00:07:28.144311,Ad Campaign,Active,Tablet,19.06,v1.8.6,15,2285.54
+150,Customer_150,47,Male,Tier 2,118301.23,2024-12-08 00:07:28.144311,Social Media,Active,Desktop,28.18,v1.6.2,7,385.05
+151,Customer_151,37,Male,Metro,107302.6,2024-10-02 00:07:28.144311,Ad Campaign,Active,Desktop,26.62,v1.5.3,1,65.78
+152,Customer_152,53,Male,Tier 2,54204.63,2024-10-20 00:07:28.144311,Organic,New,Desktop,10.98,v1.2.3,3,805.0
+153,Customer_153,23,Non-binary,Tier 1,84605.25,2024-09-30 00:07:28.144311,Social Media,Inactive,Tablet,17.53,v1.5.1,12,1741.87
+154,Customer_154,41,Female,Tier 1,113784.87,2024-10-19 00:07:28.144311,Social Media,Active,Tablet,7.02,v1.2.1,1,105.9
+155,Customer_155,31,Female,Rural,141255.0,2024-10-20 00:07:28.144311,Organic,Active,Mobile,28.07,v2.0.5,13,1218.23
+156,Customer_156,20,Non-binary,Metro,127276.1,2024-12-12 00:07:28.144311,Organic,Active,Mobile,5.65,v1.3.3,17,2030.45
+157,Customer_157,23,Male,Tier 2,100546.43,2024-10-26 00:07:28.144311,Referral,Active,Desktop,19.11,v2.8.1,10,2385.63
+158,Customer_158,48,Non-binary,Metro,75943.83,2024-12-16 00:07:28.144311,Referral,New,Tablet,11.63,v3.0.3,3,897.52
+159,Customer_159,34,Male,Tier 2,48704.34,2024-11-03 00:07:28.144311,Social Media,Active,Desktop,23.11,v1.3.2,6,1088.26
+160,Customer_160,39,Female,Tier 2,115369.87,2024-09-30 00:07:28.144311,Organic,New,Tablet,8.35,v1.5.5,14,2737.52
+161,Customer_161,40,Female,Rural,89590.32,2024-10-21 00:07:28.144311,Organic,New,Tablet,20.73,v1.1.4,12,727.9
+162,Customer_162,34,Non-binary,Metro,91234.73,2024-10-23 00:07:28.144311,Organic,Inactive,Desktop,8.73,v2.3.1,19,2106.52
+163,Customer_163,35,Non-binary,Metro,99830.57,2024-11-26 00:07:28.144311,Ad Campaign,Active,Tablet,27.3,v1.0.7,8,2285.66
+164,Customer_164,19,Male,Metro,129313.31,2024-10-28 00:07:28.144311,Social Media,Inactive,Mobile,25.63,v3.1.7,7,747.19
+165,Customer_165,34,Non-binary,Rural,134719.73,2024-10-17 00:07:28.144311,Social Media,Inactive,Desktop,22.01,v1.7.8,10,2147.59
+166,Customer_166,68,Non-binary,Rural,24624.21,2024-12-05 00:07:28.144311,Organic,Active,Desktop,12.41,v3.3.2,6,1475.76
+167,Customer_167,68,Non-binary,Tier 1,32791.43,2024-12-17 00:07:28.144311,Social Media,Active,Desktop,7.05,v1.7.7,8,1163.88
+168,Customer_168,67,Non-binary,Metro,53203.75,2024-10-18 00:07:28.144311,Ad Campaign,New,Mobile,18.26,v2.1.4,3,369.62
+169,Customer_169,57,Female,Tier 1,83182.02,2024-11-23 00:07:28.144311,Referral,Active,Tablet,8.2,v3.0.7,17,1804.62
+170,Customer_170,42,Non-binary,Tier 1,77122.65,2024-09-27 00:07:28.144311,Ad Campaign,Inactive,Tablet,28.21,v3.0.7,2,435.73
+171,Customer_171,47,Non-binary,Tier 2,130046.86,2024-11-08 00:07:28.144311,Ad Campaign,Active,Tablet,16.51,v2.7.6,11,698.11
+172,Customer_172,39,Female,Tier 2,55013.07,2024-11-26 00:07:28.144311,Organic,Active,Mobile,22.13,v3.1.2,11,2565.2
+173,Customer_173,60,Male,Metro,116645.09,2024-12-22 00:07:28.144311,Referral,Active,Desktop,22.22,v3.8.4,14,1262.97
+174,Customer_174,33,Male,Rural,114440.02,2024-10-21 00:07:28.144311,Social Media,New,Tablet,21.44,v1.4.6,1,138.85
+175,Customer_175,30,Male,Rural,88140.69,2024-09-26 00:07:28.144311,Ad Campaign,New,Mobile,5.28,v1.1.4,19,2502.93
+176,Customer_176,68,Non-binary,Tier 2,81141.48,2024-10-03 00:07:28.144311,Organic,Active,Desktop,16.22,v2.7.5,2,168.91
+177,Customer_177,55,Male,Tier 1,110430.36,2024-12-04 00:07:28.144311,Ad Campaign,Active,Mobile,14.69,v1.6.6,3,532.58
+178,Customer_178,20,Male,Rural,49307.04,2024-12-21 00:07:28.144311,Social Media,Active,Tablet,19.98,v3.2.0,13,1134.25
+179,Customer_179,41,Male,Rural,122036.61,2024-11-24 00:07:28.144311,Social Media,Active,Mobile,8.69,v3.0.6,0,0.0
+180,Customer_180,69,Male,Tier 2,124177.7,2024-11-08 00:07:28.144311,Referral,Active,Tablet,21.06,v1.5.3,19,4681.85
+181,Customer_181,44,Non-binary,Tier 1,148846.44,2024-10-11 00:07:28.144311,Referral,Active,Mobile,9.61,v1.1.2,12,2700.76
+182,Customer_182,47,Female,Tier 1,55499.21,2024-10-05 00:07:28.144311,Referral,Active,Mobile,6.4,v3.2.4,4,680.91
+183,Customer_183,38,Female,Rural,82785.95,2024-10-16 00:07:28.144311,Ad Campaign,New,Desktop,27.6,v3.0.7,3,724.13
+184,Customer_184,63,Male,Tier 2,139941.0,2024-09-27 00:07:28.144311,Social Media,New,Tablet,12.05,v3.2.6,13,1461.03
+185,Customer_185,33,Female,Tier 2,78466.18,2024-10-09 00:07:28.144311,Ad Campaign,New,Mobile,26.33,v3.3.1,10,848.11
+186,Customer_186,21,Female,Metro,120341.5,2024-10-16 00:07:28.144311,Referral,Active,Desktop,29.08,v3.6.4,9,2312.7
+187,Customer_187,31,Male,Metro,147568.62,2024-10-04 00:07:28.144311,Organic,Active,Tablet,9.78,v1.2.2,11,1511.14
+188,Customer_188,58,Male,Tier 1,113601.05,2024-10-15 00:07:28.144311,Ad Campaign,Active,Mobile,29.51,v1.1.8,6,1361.75
+189,Customer_189,34,Female,Tier 1,49399.12,2024-10-21 00:07:28.144311,Ad Campaign,Active,Tablet,21.6,v1.1.1,15,2294.12
+190,Customer_190,56,Female,Rural,28095.5,2024-11-15 00:07:28.144311,Ad Campaign,Inactive,Tablet,29.45,v3.0.6,19,3538.03
+191,Customer_191,21,Female,Rural,87520.16,2024-10-01 00:07:28.144311,Referral,Inactive,Tablet,10.97,v1.7.0,1,66.3
+192,Customer_192,20,Male,Tier 1,84715.63,2024-12-19 00:07:28.144311,Referral,Active,Mobile,14.93,v3.2.4,18,1780.24
+193,Customer_193,29,Female,Rural,57327.93,2024-11-14 00:07:28.144311,Social Media,Active,Desktop,21.07,v3.7.1,9,1457.11
+194,Customer_194,23,Female,Tier 2,99751.51,2024-12-22 00:07:28.144311,Referral,Active,Tablet,8.52,v1.6.7,4,932.64
+195,Customer_195,65,Non-binary,Metro,77242.04,2024-10-16 00:07:28.144311,Ad Campaign,New,Mobile,25.09,v2.6.0,12,3552.33
+196,Customer_196,38,Female,Metro,61991.46,2024-11-27 00:07:28.144311,Ad Campaign,Inactive,Desktop,9.06,v3.4.8,2,363.7
+197,Customer_197,42,Female,Tier 1,30322.86,2024-12-20 00:07:28.144311,Referral,Active,Mobile,12.41,v2.1.5,18,4318.12
+198,Customer_198,28,Female,Tier 2,104716.83,2024-10-13 00:07:28.144311,Organic,Active,Tablet,25.71,v2.4.7,0,0.0
+199,Customer_199,69,Female,Metro,116157.27,2024-10-04 00:07:28.144311,Ad Campaign,Active,Desktop,20.52,v2.0.4,11,1846.04
+200,Customer_200,32,Non-binary,Tier 2,24045.03,2024-12-09 00:07:28.144311,Ad Campaign,Active,Desktop,9.37,v1.3.0,7,477.17
+201,Customer_201,20,Female,Metro,48018.88,2024-12-10 00:07:28.144311,Referral,New,Mobile,12.6,v2.3.3,11,1190.1
+202,Customer_202,26,Non-binary,Rural,106448.04,2024-10-04 00:07:28.144311,Referral,Inactive,Desktop,5.0,v3.1.7,13,2146.16
+203,Customer_203,53,Male,Rural,36750.33,2024-12-06 00:07:28.144311,Ad Campaign,Inactive,Desktop,15.56,v1.7.7,13,3633.75
+204,Customer_204,40,Female,Rural,111999.48,2024-11-04 00:07:28.144311,Referral,Active,Mobile,25.99,v1.6.8,18,4827.39
+205,Customer_205,31,Female,Metro,90290.8,2024-11-15 00:07:28.144311,Organic,Active,Mobile,16.72,v1.4.2,8,999.84
+206,Customer_206,47,Male,Rural,28383.87,2024-12-17 00:07:28.144311,Ad Campaign,Active,Tablet,13.51,v3.6.0,15,880.01
+207,Customer_207,52,Non-binary,Rural,122590.91,2024-10-01 00:07:28.144311,Referral,Active,Mobile,19.97,v1.4.8,8,1738.4
+208,Customer_208,34,Female,Rural,144257.18,2024-12-17 00:07:28.144311,Organic,Active,Tablet,15.86,v3.8.2,19,3056.06
+209,Customer_209,57,Male,Tier 2,77881.99,2024-11-26 00:07:28.144311,Referral,Active,Desktop,8.29,v2.2.5,11,3163.96
+210,Customer_210,51,Non-binary,Tier 2,147899.24,2024-10-14 00:07:28.144311,Referral,Active,Tablet,11.36,v1.5.7,18,2145.66
+211,Customer_211,18,Male,Metro,81486.27,2024-11-15 00:07:28.144311,Ad Campaign,Active,Mobile,16.86,v1.5.0,13,810.86
+212,Customer_212,25,Non-binary,Rural,34043.35,2024-09-26 00:07:28.144311,Referral,Inactive,Mobile,10.46,v2.5.8,8,2033.36
+213,Customer_213,66,Male,Metro,34798.99,2024-11-04 00:07:28.144311,Referral,Active,Mobile,5.74,v3.2.0,7,1088.2
+214,Customer_214,29,Male,Metro,53562.52,2024-10-25 00:07:28.144311,Social Media,Active,Tablet,28.88,v2.4.7,13,816.19
+215,Customer_215,62,Non-binary,Tier 2,25272.64,2024-10-02 00:07:28.144311,Ad Campaign,Active,Tablet,25.01,v2.4.2,14,2166.32
+216,Customer_216,37,Male,Metro,72551.16,2024-12-10 00:07:28.144311,Organic,Inactive,Desktop,21.15,v2.1.2,10,1996.73
+217,Customer_217,31,Female,Tier 2,138727.3,2024-11-16 00:07:28.144311,Social Media,Active,Tablet,8.01,v2.5.2,15,4467.24
+218,Customer_218,19,Male,Metro,74864.45,2024-11-20 00:07:28.144311,Referral,Active,Mobile,14.98,v1.4.0,5,1307.01
+219,Customer_219,60,Female,Rural,107485.66,2024-10-13 00:07:28.144311,Organic,Inactive,Tablet,16.16,v2.2.2,11,3070.75
+220,Customer_220,40,Non-binary,Rural,21600.26,2024-10-29 00:07:28.144311,Ad Campaign,Active,Mobile,18.15,v2.7.4,6,513.89
+221,Customer_221,18,Male,Tier 2,40079.77,2024-11-26 00:07:28.144311,Ad Campaign,Active,Desktop,13.52,v3.0.0,5,1308.92
+222,Customer_222,25,Female,Rural,48326.03,2024-10-10 00:07:28.144311,Ad Campaign,Active,Mobile,8.51,v1.7.7,2,582.01
+223,Customer_223,21,Female,Tier 2,47152.33,2024-10-22 00:07:28.144311,Referral,Active,Tablet,12.83,v1.4.4,4,1155.92
+224,Customer_224,54,Non-binary,Tier 2,77736.6,2024-12-07 00:07:28.144311,Social Media,Active,Mobile,12.21,v3.3.0,12,3512.23
+225,Customer_225,39,Male,Metro,82124.2,2024-12-12 00:07:28.144311,Ad Campaign,Active,Mobile,25.84,v3.2.1,12,1183.87
+226,Customer_226,66,Male,Tier 1,108060.35,2024-12-04 00:07:28.144311,Social Media,Inactive,Desktop,9.13,v3.7.2,12,2478.7
+227,Customer_227,28,Non-binary,Metro,149200.29,2024-10-04 00:07:28.144311,Social Media,Active,Tablet,16.54,v3.4.7,4,675.55
+228,Customer_228,53,Female,Tier 2,37208.41,2024-12-14 00:07:28.144311,Ad Campaign,Active,Tablet,8.27,v3.6.4,16,3523.02
+229,Customer_229,58,Female,Tier 1,142725.47,2024-12-08 00:07:28.144311,Referral,Active,Tablet,19.72,v2.3.5,10,1008.06
+230,Customer_230,41,Non-binary,Tier 2,98748.19,2024-10-22 00:07:28.144311,Organic,Active,Mobile,26.64,v2.1.2,14,3375.85
+231,Customer_231,21,Non-binary,Metro,81942.84,2024-10-13 00:07:28.144311,Social Media,Inactive,Mobile,21.0,v1.7.2,5,570.06
+232,Customer_232,22,Male,Tier 2,101457.03,2024-11-24 00:07:28.144311,Referral,New,Tablet,22.19,v3.2.5,9,752.48
+233,Customer_233,38,Female,Metro,56238.78,2024-10-30 00:07:28.144311,Ad Campaign,Inactive,Desktop,29.76,v2.7.0,7,865.58
+234,Customer_234,24,Non-binary,Metro,64431.71,2024-11-18 00:07:28.144311,Organic,New,Mobile,23.84,v1.8.0,3,675.03
+235,Customer_235,57,Non-binary,Metro,114009.43,2024-10-08 00:07:28.144311,Social Media,Active,Desktop,6.65,v3.7.2,13,3276.76
+236,Customer_236,62,Female,Metro,144164.98,2024-12-09 00:07:28.144311,Ad Campaign,New,Desktop,26.05,v2.1.1,12,2600.56
+237,Customer_237,48,Female,Tier 2,72169.78,2024-09-29 00:07:28.144311,Ad Campaign,Active,Desktop,27.65,v1.6.4,6,639.04
+238,Customer_238,58,Female,Metro,24376.99,2024-12-06 00:07:28.144311,Organic,Active,Mobile,8.07,v1.6.6,9,1768.2
+239,Customer_239,25,Female,Rural,102821.81,2024-12-11 00:07:28.144311,Ad Campaign,Active,Mobile,25.1,v2.3.6,7,824.97
+240,Customer_240,48,Female,Tier 1,37397.69,2024-10-11 00:07:28.144311,Organic,Active,Desktop,7.57,v1.1.5,5,1369.66
+241,Customer_241,41,Female,Rural,20496.59,2024-10-17 00:07:28.144311,Social Media,Active,Mobile,28.27,v1.0.2,8,2085.42
+242,Customer_242,61,Female,Tier 2,142587.9,2024-10-03 00:07:28.144311,Organic,Active,Desktop,7.23,v2.6.0,9,763.01
+243,Customer_243,38,Male,Tier 2,106630.1,2024-11-22 00:07:28.144311,Social Media,Active,Mobile,21.9,v1.8.4,19,4663.66
+244,Customer_244,29,Male,Tier 1,33625.05,2024-11-07 00:07:28.144311,Referral,Active,Mobile,16.9,v2.2.8,6,1451.35
+245,Customer_245,35,Male,Metro,74053.68,2024-12-23 00:07:28.144311,Social Media,Active,Tablet,16.81,v2.0.3,12,2862.07
+246,Customer_246,62,Female,Metro,37758.12,2024-12-18 00:07:28.144311,Social Media,Active,Tablet,21.12,v1.7.5,0,0.0
+247,Customer_247,60,Non-binary,Metro,27551.95,2024-11-01 00:07:28.144311,Ad Campaign,Active,Desktop,25.89,v2.4.5,1,54.83
+248,Customer_248,53,Female,Tier 1,24084.84,2024-12-22 00:07:28.144311,Referral,Active,Tablet,11.67,v1.8.3,5,1202.89
+249,Customer_249,45,Non-binary,Metro,87768.49,2024-10-28 00:07:28.144311,Social Media,Active,Mobile,6.91,v3.8.1,4,465.58
+250,Customer_250,49,Male,Metro,120508.44,2024-10-28 00:07:28.144311,Referral,Active,Tablet,19.27,v3.4.3,12,3522.58
+251,Customer_251,64,Non-binary,Metro,91105.22,2024-12-17 00:07:28.144311,Organic,Active,Mobile,14.95,v3.8.1,1,171.02
+252,Customer_252,32,Non-binary,Rural,27519.78,2024-09-26 00:07:28.144311,Social Media,Inactive,Mobile,18.27,v2.5.8,16,1701.53
+253,Customer_253,61,Non-binary,Tier 1,136489.76,2024-11-30 00:07:28.144311,Ad Campaign,Active,Desktop,8.67,v1.7.7,3,441.12
+254,Customer_254,45,Non-binary,Tier 2,125281.82,2024-11-08 00:07:28.144311,Social Media,Active,Tablet,16.75,v3.8.1,16,4522.43
+255,Customer_255,37,Male,Tier 2,25793.3,2024-11-22 00:07:28.144311,Ad Campaign,Active,Tablet,11.05,v1.4.4,5,593.38
+256,Customer_256,39,Female,Tier 1,91091.75,2024-11-09 00:07:28.144311,Organic,Active,Desktop,9.14,v1.7.0,16,4724.77
+257,Customer_257,30,Female,Tier 2,70941.58,2024-10-16 00:07:28.144311,Organic,Active,Desktop,17.46,v3.8.4,17,3372.63
+258,Customer_258,55,Female,Tier 1,147553.12,2024-12-21 00:07:28.144311,Social Media,Active,Desktop,13.88,v1.4.1,1,239.33
+259,Customer_259,30,Female,Rural,120501.58,2024-10-21 00:07:28.144311,Referral,Active,Desktop,29.0,v2.5.5,11,583.28
+260,Customer_260,27,Male,Rural,140405.23,2024-11-13 00:07:28.144311,Referral,Active,Tablet,13.04,v2.6.7,15,1107.75
+261,Customer_261,54,Non-binary,Metro,72359.37,2024-12-12 00:07:28.144311,Organic,Active,Mobile,8.85,v3.1.2,0,0.0
+262,Customer_262,46,Non-binary,Metro,102607.67,2024-12-05 00:07:28.144311,Organic,New,Desktop,28.77,v3.0.1,12,1353.0
+263,Customer_263,37,Male,Tier 2,74028.51,2024-10-21 00:07:28.144311,Ad Campaign,Inactive,Tablet,27.96,v3.8.8,4,236.02
+264,Customer_264,34,Female,Tier 1,108341.49,2024-11-14 00:07:28.144311,Organic,Active,Desktop,19.08,v1.2.2,18,1547.16
+265,Customer_265,24,Non-binary,Tier 2,143039.35,2024-11-15 00:07:28.144311,Organic,Active,Desktop,16.91,v3.1.3,12,2373.39
+266,Customer_266,58,Non-binary,Rural,131153.93,2024-11-27 00:07:28.144311,Ad Campaign,New,Tablet,28.52,v1.0.2,14,3538.08
+267,Customer_267,57,Non-binary,Metro,114477.4,2024-12-01 00:07:28.144311,Social Media,Active,Desktop,17.89,v1.6.4,19,2969.83
+268,Customer_268,22,Non-binary,Tier 1,91071.07,2024-11-14 00:07:28.144311,Organic,Active,Tablet,14.05,v1.7.6,6,756.3
+269,Customer_269,37,Non-binary,Rural,20191.6,2024-11-08 00:07:28.144311,Social Media,Inactive,Tablet,23.29,v3.8.4,12,1867.89
+270,Customer_270,67,Female,Tier 1,126343.48,2024-11-28 00:07:28.144311,Referral,Active,Tablet,13.42,v3.5.3,6,630.73
+271,Customer_271,39,Male,Tier 1,96782.92,2024-12-09 00:07:28.144311,Referral,Active,Tablet,22.73,v3.1.8,16,4608.89
+272,Customer_272,27,Female,Metro,67022.33,2024-11-07 00:07:28.144311,Social Media,Active,Desktop,23.98,v2.0.0,18,2561.76
+273,Customer_273,58,Non-binary,Rural,40673.25,2024-12-10 00:07:28.144311,Social Media,New,Tablet,28.02,v3.6.8,16,923.43
+274,Customer_274,58,Male,Metro,64894.45,2024-12-19 00:07:28.144311,Social Media,Inactive,Desktop,7.97,v1.6.0,16,2322.07
+275,Customer_275,32,Female,Metro,23275.14,2024-11-20 00:07:28.144311,Social Media,Active,Mobile,29.26,v1.6.3,18,4077.87
+276,Customer_276,50,Male,Rural,26716.93,2024-10-21 00:07:28.144311,Organic,Active,Tablet,7.96,v2.2.2,11,1173.5
+277,Customer_277,60,Female,Metro,40445.52,2024-10-18 00:07:28.144311,Social Media,Active,Tablet,21.82,v1.7.6,13,2680.84
+278,Customer_278,20,Female,Rural,147647.74,2024-11-04 00:07:28.144311,Ad Campaign,Active,Mobile,18.72,v2.4.4,11,2258.55
+279,Customer_279,50,Male,Metro,134137.98,2024-10-17 00:07:28.144311,Ad Campaign,Active,Mobile,12.14,v1.2.5,4,272.11
+280,Customer_280,47,Non-binary,Tier 2,142778.32,2024-12-12 00:07:28.144311,Social Media,Active,Desktop,7.9,v3.2.5,19,2269.8
+281,Customer_281,35,Non-binary,Tier 1,138915.04,2024-12-17 00:07:28.144311,Ad Campaign,Active,Tablet,9.48,v2.4.8,4,389.82
+282,Customer_282,37,Male,Metro,65048.14,2024-10-10 00:07:28.144311,Referral,Active,Tablet,17.92,v3.1.7,9,2002.0
+283,Customer_283,43,Non-binary,Tier 2,30007.33,2024-11-26 00:07:28.144311,Referral,Inactive,Desktop,15.76,v3.3.2,14,2636.83
+284,Customer_284,51,Female,Tier 2,68523.78,2024-11-28 00:07:28.144311,Ad Campaign,Active,Tablet,12.82,v3.1.3,0,0.0
+285,Customer_285,42,Female,Metro,142815.71,2024-12-03 00:07:28.144311,Referral,Inactive,Desktop,24.31,v2.8.0,16,2342.45
+286,Customer_286,24,Male,Metro,78533.05,2024-12-24 00:07:28.144311,Ad Campaign,Active,Mobile,20.43,v2.5.0,9,468.72
+287,Customer_287,67,Non-binary,Rural,117289.97,2024-11-30 00:07:28.144311,Social Media,Inactive,Mobile,17.82,v3.2.7,16,2987.5
+288,Customer_288,58,Female,Tier 1,112826.85,2024-11-15 00:07:28.144311,Referral,Active,Desktop,6.25,v3.0.8,13,1530.12
+289,Customer_289,65,Female,Rural,66131.91,2024-11-05 00:07:28.144311,Referral,Active,Mobile,21.82,v2.6.1,5,729.11
+290,Customer_290,53,Non-binary,Tier 2,90753.02,2024-11-09 00:07:28.144311,Referral,Active,Mobile,11.33,v3.7.2,13,1856.12
+291,Customer_291,26,Male,Tier 1,123963.44,2024-11-16 00:07:28.144311,Organic,Inactive,Mobile,27.38,v1.1.7,1,207.56
+292,Customer_292,60,Non-binary,Rural,128373.61,2024-11-15 00:07:28.144311,Social Media,Active,Desktop,28.41,v2.1.5,10,1997.11
+293,Customer_293,30,Female,Rural,72992.27,2024-11-01 00:07:28.144311,Social Media,Inactive,Desktop,12.03,v3.5.1,0,0.0
+294,Customer_294,38,Male,Metro,122247.91,2024-12-04 00:07:28.144311,Ad Campaign,Inactive,Mobile,25.66,v3.2.3,4,207.96
+295,Customer_295,29,Non-binary,Rural,91939.42,2024-11-30 00:07:28.144311,Organic,Active,Tablet,25.71,v1.6.6,4,526.74
+296,Customer_296,59,Male,Tier 1,55294.84,2024-10-06 00:07:28.144311,Organic,Active,Mobile,14.82,v3.2.6,8,2117.63
+297,Customer_297,59,Non-binary,Metro,64821.58,2024-10-06 00:07:28.144311,Referral,Active,Desktop,20.26,v1.4.6,12,2765.79
+298,Customer_298,69,Non-binary,Rural,35281.67,2024-12-08 00:07:28.144311,Referral,New,Tablet,18.3,v2.5.5,0,0.0
+299,Customer_299,60,Female,Tier 2,51399.79,2024-12-15 00:07:28.144311,Referral,Active,Tablet,17.98,v3.6.6,14,2068.62
+300,Customer_300,36,Female,Tier 2,117420.76,2024-12-01 00:07:28.144311,Social Media,Inactive,Mobile,15.39,v2.0.2,2,448.21
+301,Customer_301,64,Female,Metro,46476.73,2024-12-12 00:07:28.144311,Ad Campaign,Active,Mobile,18.31,v1.0.4,6,514.26
+302,Customer_302,43,Male,Tier 2,34857.15,2024-11-29 00:07:28.144311,Organic,Active,Tablet,17.7,v1.0.0,16,4229.24
+303,Customer_303,20,Non-binary,Metro,101695.44,2024-11-23 00:07:28.144311,Ad Campaign,Active,Mobile,23.28,v1.7.7,0,0.0
+304,Customer_304,39,Male,Tier 2,36560.23,2024-10-15 00:07:28.144311,Ad Campaign,Active,Desktop,26.37,v1.2.4,13,1910.43
+305,Customer_305,57,Female,Tier 2,56514.66,2024-10-20 00:07:28.144311,Social Media,New,Tablet,14.74,v1.7.3,14,932.98
+306,Customer_306,66,Male,Tier 1,68810.96,2024-11-10 00:07:28.144311,Ad Campaign,Active,Mobile,18.98,v1.2.2,2,275.26
+307,Customer_307,57,Non-binary,Tier 2,68044.65,2024-10-26 00:07:28.144311,Social Media,New,Desktop,22.72,v3.1.0,8,410.63
+308,Customer_308,51,Male,Rural,91294.49,2024-11-30 00:07:28.144311,Social Media,Active,Tablet,18.7,v1.6.3,16,858.51
+309,Customer_309,36,Male,Tier 2,42084.53,2024-12-16 00:07:28.144311,Referral,Inactive,Mobile,8.97,v3.2.4,3,789.44
+310,Customer_310,39,Female,Tier 1,59897.59,2024-10-25 00:07:28.144311,Organic,Active,Desktop,9.63,v1.1.0,1,83.41
+311,Customer_311,68,Female,Tier 2,105736.4,2024-10-24 00:07:28.144311,Ad Campaign,Active,Desktop,28.48,v2.0.4,13,1360.83
+312,Customer_312,53,Non-binary,Tier 1,28208.24,2024-11-02 00:07:28.144311,Referral,Inactive,Desktop,29.58,v2.4.3,11,964.17
+313,Customer_313,25,Male,Metro,53744.94,2024-10-16 00:07:28.144311,Organic,Inactive,Desktop,25.61,v2.1.5,13,3536.38
+314,Customer_314,57,Non-binary,Metro,76734.55,2024-10-09 00:07:28.144311,Ad Campaign,New,Desktop,25.32,v1.5.3,11,1448.26
+315,Customer_315,48,Non-binary,Rural,107653.65,2024-10-19 00:07:28.144311,Organic,Active,Desktop,6.01,v1.0.2,19,5185.63
+316,Customer_316,38,Non-binary,Tier 1,93603.49,2024-11-07 00:07:28.144311,Organic,Active,Tablet,5.43,v2.0.3,14,2490.73
+317,Customer_317,52,Non-binary,Rural,73925.97,2024-12-15 00:07:28.144311,Referral,Active,Mobile,20.96,v3.1.8,19,3655.05
+318,Customer_318,40,Non-binary,Tier 1,68293.17,2024-11-27 00:07:28.144311,Organic,Active,Mobile,29.89,v2.3.5,16,2644.67
+319,Customer_319,55,Male,Tier 1,26935.24,2024-12-14 00:07:28.144311,Organic,Active,Desktop,26.59,v3.4.4,8,1688.51
+320,Customer_320,42,Male,Tier 1,55787.47,2024-10-03 00:07:28.144311,Organic,Active,Mobile,9.48,v2.5.1,14,2285.19
+321,Customer_321,63,Female,Tier 1,22488.83,2024-11-22 00:07:28.144311,Referral,Active,Desktop,25.95,v2.3.5,2,419.52
+322,Customer_322,43,Female,Metro,39979.84,2024-11-18 00:07:28.144311,Organic,Active,Tablet,19.58,v3.5.3,7,466.42
+323,Customer_323,43,Female,Metro,98890.1,2024-10-31 00:07:28.144311,Social Media,Active,Desktop,10.28,v1.7.4,8,2394.48
+324,Customer_324,37,Male,Tier 1,109857.54,2024-10-29 00:07:28.144311,Social Media,Inactive,Mobile,6.56,v3.4.6,11,2796.68
+325,Customer_325,59,Female,Metro,31063.45,2024-12-14 00:07:28.144311,Ad Campaign,New,Tablet,10.73,v2.5.7,9,618.35
+326,Customer_326,32,Male,Rural,146499.98,2024-11-15 00:07:28.144311,Social Media,Active,Desktop,24.96,v2.7.7,9,1027.04
+327,Customer_327,66,Male,Metro,28133.43,2024-11-29 00:07:28.144311,Ad Campaign,Inactive,Tablet,13.57,v3.7.7,1,257.33
+328,Customer_328,28,Female,Rural,40277.51,2024-10-22 00:07:28.144311,Ad Campaign,Active,Tablet,12.79,v2.6.0,0,0.0
+329,Customer_329,48,Female,Metro,112974.24,2024-11-02 00:07:28.144311,Social Media,Active,Tablet,23.13,v2.2.7,16,4248.81
+330,Customer_330,32,Non-binary,Tier 2,36426.34,2024-12-12 00:07:28.144311,Organic,Active,Tablet,9.88,v2.8.5,18,3861.37
+331,Customer_331,52,Female,Rural,62670.3,2024-10-18 00:07:28.144311,Referral,Active,Tablet,27.58,v1.0.0,4,710.15
+332,Customer_332,30,Male,Rural,83651.18,2024-11-01 00:07:28.144311,Social Media,Inactive,Mobile,23.54,v3.5.5,2,209.35
+333,Customer_333,62,Female,Tier 1,137414.8,2024-11-17 00:07:28.144311,Social Media,Active,Tablet,8.58,v2.2.2,11,2081.16
+334,Customer_334,48,Male,Tier 2,63894.41,2024-11-03 00:07:28.144311,Organic,New,Desktop,10.46,v2.3.6,3,150.49
+335,Customer_335,59,Female,Metro,101552.76,2024-10-09 00:07:28.144311,Organic,Active,Mobile,18.86,v1.0.7,7,1961.29
+336,Customer_336,62,Non-binary,Tier 1,99292.4,2024-10-27 00:07:28.144311,Ad Campaign,Active,Mobile,16.7,v1.8.6,1,240.11
+337,Customer_337,34,Female,Tier 2,141572.37,2024-10-04 00:07:28.144311,Organic,Active,Tablet,10.11,v3.0.7,18,3668.08
+338,Customer_338,26,Female,Rural,85165.83,2024-09-29 00:07:28.144311,Social Media,New,Mobile,26.32,v1.5.0,11,618.67
+339,Customer_339,51,Male,Rural,26449.87,2024-10-08 00:07:28.144311,Organic,Active,Desktop,9.34,v1.7.2,10,1921.16
+340,Customer_340,48,Male,Metro,50801.33,2024-10-01 00:07:28.144311,Organic,Inactive,Tablet,14.15,v2.4.2,7,1706.68
+341,Customer_341,52,Non-binary,Tier 2,58027.14,2024-12-04 00:07:28.144311,Referral,Active,Desktop,20.93,v3.0.5,18,1765.39
+342,Customer_342,45,Female,Tier 1,143130.99,2024-10-18 00:07:28.144311,Ad Campaign,Active,Desktop,13.49,v1.3.0,8,1093.77
+343,Customer_343,63,Non-binary,Tier 1,56156.79,2024-10-30 00:07:28.144311,Referral,Inactive,Tablet,13.58,v1.7.7,15,2448.05
+344,Customer_344,55,Non-binary,Metro,51198.62,2024-10-30 00:07:28.144311,Social Media,Active,Desktop,29.2,v1.1.2,9,2485.72
+345,Customer_345,37,Female,Tier 2,137566.77,2024-12-20 00:07:28.144311,Referral,Active,Mobile,5.17,v1.4.1,17,4656.14
+346,Customer_346,40,Non-binary,Rural,109837.26,2024-12-24 00:07:28.144311,Ad Campaign,Active,Tablet,28.51,v1.8.3,16,4089.98
+347,Customer_347,38,Female,Metro,89089.14,2024-11-17 00:07:28.144311,Organic,Active,Tablet,8.43,v3.8.4,4,555.13
+348,Customer_348,60,Non-binary,Tier 2,105625.98,2024-12-07 00:07:28.144311,Organic,Inactive,Tablet,18.08,v3.7.1,9,1185.29
+349,Customer_349,66,Non-binary,Tier 2,124127.49,2024-12-20 00:07:28.144311,Ad Campaign,Active,Desktop,14.04,v3.5.4,8,2191.4
+350,Customer_350,19,Male,Rural,24217.65,2024-11-25 00:07:28.144311,Referral,Active,Desktop,9.31,v3.7.5,8,463.56
+351,Customer_351,38,Non-binary,Tier 1,26545.44,2024-11-03 00:07:28.144311,Organic,Active,Desktop,10.46,v1.0.0,9,1258.22
+352,Customer_352,38,Non-binary,Metro,29937.18,2024-10-06 00:07:28.144311,Social Media,Active,Mobile,13.2,v2.0.5,16,2233.34
+353,Customer_353,62,Female,Tier 2,48761.03,2024-10-14 00:07:28.144311,Organic,Active,Mobile,14.62,v1.4.7,2,108.38
+354,Customer_354,22,Female,Tier 1,108902.64,2024-09-27 00:07:28.144311,Ad Campaign,New,Mobile,12.8,v2.5.1,17,2261.47
+355,Customer_355,31,Female,Metro,49117.73,2024-11-11 00:07:28.144311,Referral,Active,Desktop,28.46,v3.0.2,18,1941.66
+356,Customer_356,52,Female,Rural,26082.16,2024-12-01 00:07:28.144311,Organic,Active,Desktop,11.38,v1.2.3,12,2194.98
+357,Customer_357,31,Male,Rural,48204.31,2024-10-18 00:07:28.144311,Social Media,Active,Tablet,8.91,v2.1.2,7,1229.25
+358,Customer_358,60,Non-binary,Metro,60696.52,2024-10-20 00:07:28.144311,Social Media,New,Desktop,14.49,v1.8.2,9,1158.36
+359,Customer_359,67,Male,Metro,75699.53,2024-10-26 00:07:28.144311,Ad Campaign,Inactive,Mobile,21.45,v2.5.7,13,999.75
+360,Customer_360,46,Non-binary,Tier 1,52652.0,2024-12-07 00:07:28.144311,Referral,Active,Mobile,12.71,v2.7.2,9,464.35
+361,Customer_361,34,Non-binary,Rural,50406.6,2024-10-03 00:07:28.144311,Organic,Inactive,Tablet,16.01,v1.3.5,15,3072.54
+362,Customer_362,30,Non-binary,Tier 1,23350.05,2024-10-26 00:07:28.144311,Social Media,Active,Mobile,15.77,v3.8.8,9,1851.2
+363,Customer_363,64,Male,Tier 2,84596.42,2024-09-29 00:07:28.144311,Ad Campaign,Active,Tablet,9.27,v3.8.8,13,1927.59
+364,Customer_364,58,Male,Tier 1,40751.24,2024-11-07 00:07:28.144311,Ad Campaign,New,Desktop,5.59,v1.5.6,16,1725.9
+365,Customer_365,19,Male,Tier 1,140499.13,2024-10-11 00:07:28.144311,Social Media,Active,Tablet,26.45,v3.5.8,11,1412.69
+366,Customer_366,64,Female,Rural,67334.66,2024-12-21 00:07:28.144311,Referral,New,Tablet,11.88,v3.7.6,14,2496.14
+367,Customer_367,57,Male,Tier 1,41233.76,2024-10-23 00:07:28.144311,Organic,Active,Mobile,7.19,v2.3.5,14,3747.41
+368,Customer_368,47,Non-binary,Rural,63159.78,2024-10-15 00:07:28.144311,Organic,Inactive,Mobile,16.05,v3.3.3,18,1873.13
+369,Customer_369,38,Male,Tier 2,138404.35,2024-11-26 00:07:28.144311,Social Media,Active,Desktop,14.03,v2.1.4,3,588.63
+370,Customer_370,36,Non-binary,Tier 1,45146.59,2024-10-24 00:07:28.144311,Ad Campaign,Active,Tablet,13.43,v3.3.8,6,466.71
+371,Customer_371,55,Female,Rural,107409.9,2024-10-29 00:07:28.144311,Social Media,Active,Tablet,14.92,v3.4.5,3,352.98
+372,Customer_372,51,Male,Tier 1,77788.67,2024-12-18 00:07:28.144311,Social Media,Inactive,Tablet,13.8,v3.8.4,18,5333.29
+373,Customer_373,49,Female,Tier 2,73454.76,2024-12-23 00:07:28.144311,Ad Campaign,Active,Mobile,17.52,v2.6.4,10,1197.35
+374,Customer_374,28,Non-binary,Metro,121337.17,2024-11-29 00:07:28.144311,Referral,Inactive,Desktop,16.77,v3.0.4,9,2230.79
+375,Customer_375,59,Non-binary,Tier 1,57418.07,2024-11-05 00:07:28.144311,Referral,Inactive,Desktop,13.11,v2.0.5,1,241.46
+376,Customer_376,19,Female,Tier 1,69153.1,2024-11-27 00:07:28.144311,Organic,New,Tablet,22.31,v1.7.8,9,1014.93
+377,Customer_377,33,Male,Tier 1,35860.96,2024-11-28 00:07:28.144311,Organic,Inactive,Tablet,19.85,v1.8.8,1,260.5
+378,Customer_378,56,Female,Metro,107470.13,2024-11-19 00:07:28.144311,Social Media,Active,Tablet,21.6,v2.1.4,19,3628.62
+379,Customer_379,41,Male,Tier 1,91070.52,2024-12-07 00:07:28.144311,Social Media,Active,Tablet,15.16,v2.3.3,13,3200.5
+380,Customer_380,53,Male,Rural,107926.94,2024-11-19 00:07:28.144311,Social Media,Inactive,Desktop,11.34,v1.4.3,7,573.61
+381,Customer_381,56,Non-binary,Tier 1,114741.15,2024-12-09 00:07:28.144311,Organic,Active,Tablet,8.18,v2.0.8,14,2446.4
+382,Customer_382,22,Male,Tier 2,72263.54,2024-10-08 00:07:28.144311,Referral,Inactive,Mobile,22.8,v1.2.5,7,1915.21
+383,Customer_383,37,Non-binary,Metro,86879.97,2024-10-16 00:07:28.144311,Referral,Active,Tablet,21.66,v1.8.7,0,0.0
+384,Customer_384,40,Non-binary,Tier 2,148353.7,2024-09-28 00:07:28.144311,Referral,Active,Tablet,6.65,v2.2.0,14,1814.06
+385,Customer_385,19,Male,Rural,108684.92,2024-11-26 00:07:28.144311,Social Media,Active,Desktop,23.46,v1.3.3,8,2008.19
+386,Customer_386,68,Female,Tier 2,114932.39,2024-11-10 00:07:28.144311,Referral,Active,Mobile,12.11,v3.4.5,10,990.61
+387,Customer_387,69,Female,Tier 1,34045.79,2024-11-29 00:07:28.144311,Referral,Active,Mobile,7.15,v3.6.2,11,1853.95
+388,Customer_388,31,Non-binary,Tier 1,58436.46,2024-12-14 00:07:28.144311,Ad Campaign,Active,Desktop,22.23,v2.3.5,16,3254.55
+389,Customer_389,18,Non-binary,Rural,90820.39,2024-11-03 00:07:28.144311,Ad Campaign,Inactive,Desktop,21.02,v1.3.8,11,2479.78
+390,Customer_390,63,Non-binary,Tier 2,138474.09,2024-11-09 00:07:28.144311,Organic,Active,Mobile,29.38,v1.5.5,19,4159.4
+391,Customer_391,28,Male,Tier 2,79043.88,2024-12-14 00:07:28.144311,Social Media,Inactive,Desktop,24.75,v2.8.8,18,1245.25
+392,Customer_392,31,Female,Tier 2,105553.29,2024-12-08 00:07:28.144311,Referral,Active,Tablet,28.53,v1.7.8,18,900.84
+393,Customer_393,64,Male,Rural,79467.6,2024-11-17 00:07:28.144311,Social Media,Inactive,Tablet,23.26,v1.1.0,8,761.04
+394,Customer_394,24,Male,Tier 1,72190.03,2024-11-03 00:07:28.144311,Organic,Active,Mobile,21.89,v1.3.5,3,564.27
+395,Customer_395,47,Female,Metro,32817.25,2024-12-17 00:07:28.144311,Organic,Active,Tablet,18.25,v3.8.1,15,2843.82
+396,Customer_396,48,Male,Metro,88076.24,2024-11-09 00:07:28.144311,Ad Campaign,Active,Mobile,25.71,v2.5.1,11,3068.42
+397,Customer_397,53,Female,Tier 1,56019.0,2024-10-15 00:07:28.144311,Organic,Active,Tablet,29.69,v2.5.5,11,660.79
+398,Customer_398,39,Non-binary,Metro,74945.28,2024-11-25 00:07:28.144311,Organic,Inactive,Tablet,25.24,v2.6.8,11,2789.56
+399,Customer_399,50,Non-binary,Tier 1,65700.49,2024-12-23 00:07:28.144311,Social Media,New,Tablet,8.18,v3.1.5,4,1105.54
+400,Customer_400,61,Non-binary,Tier 2,126663.39,2024-10-18 00:07:28.144311,Referral,Active,Mobile,17.59,v2.1.5,9,2214.91
+401,Customer_401,38,Non-binary,Tier 2,144532.96,2024-12-11 00:07:28.144311,Referral,Active,Desktop,20.64,v1.5.4,4,963.69
+402,Customer_402,49,Non-binary,Tier 1,90589.76,2024-12-10 00:07:28.144311,Referral,Active,Desktop,8.57,v2.2.5,11,1643.93
+403,Customer_403,30,Male,Tier 2,134863.41,2024-12-17 00:07:28.144311,Referral,Active,Desktop,17.64,v1.2.7,15,2872.57
+404,Customer_404,65,Male,Rural,53553.51,2024-10-15 00:07:28.144311,Referral,Active,Tablet,9.63,v1.4.0,9,2578.43
+405,Customer_405,63,Male,Metro,141800.62,2024-09-27 00:07:28.144311,Organic,Active,Tablet,17.96,v1.3.8,10,2226.82
+406,Customer_406,22,Non-binary,Metro,38532.35,2024-12-12 00:07:28.144311,Referral,Active,Tablet,21.81,v3.8.2,14,2147.88
+407,Customer_407,49,Male,Rural,43020.69,2024-10-19 00:07:28.144311,Ad Campaign,Active,Desktop,14.83,v1.4.8,19,1800.4
+408,Customer_408,64,Female,Tier 1,96400.61,2024-11-10 00:07:28.144311,Ad Campaign,Active,Desktop,15.93,v3.8.6,10,2609.39
+409,Customer_409,56,Male,Tier 1,133659.95,2024-11-10 00:07:28.144311,Social Media,Active,Mobile,15.24,v3.5.6,18,2403.87
+410,Customer_410,45,Non-binary,Metro,128239.53,2024-11-03 00:07:28.144311,Organic,Active,Mobile,22.3,v2.2.7,15,3284.1
+411,Customer_411,40,Female,Tier 1,37578.25,2024-11-20 00:07:28.144311,Social Media,Inactive,Desktop,28.73,v1.7.4,8,816.63
+412,Customer_412,40,Non-binary,Rural,115014.35,2024-12-02 00:07:28.144311,Social Media,Active,Desktop,13.75,v3.0.4,6,1130.21
+413,Customer_413,62,Female,Rural,116495.28,2024-11-15 00:07:28.144311,Referral,Active,Tablet,6.08,v3.5.8,12,1837.21
+414,Customer_414,38,Female,Rural,99314.03,2024-10-09 00:07:28.144311,Organic,Active,Mobile,27.8,v1.8.1,17,2615.93
+415,Customer_415,28,Male,Metro,115499.08,2024-11-10 00:07:28.144311,Referral,Active,Desktop,9.36,v3.0.7,18,3715.57
+416,Customer_416,66,Male,Rural,87779.01,2024-10-24 00:07:28.144311,Organic,Active,Mobile,17.36,v2.1.8,15,2988.54
+417,Customer_417,36,Non-binary,Tier 2,99514.03,2024-11-01 00:07:28.144311,Referral,Active,Tablet,9.52,v2.7.6,17,2152.27
+418,Customer_418,62,Female,Metro,75444.97,2024-11-07 00:07:28.144311,Referral,New,Tablet,24.32,v1.3.1,19,2661.78
+419,Customer_419,48,Non-binary,Rural,104419.25,2024-12-16 00:07:28.144311,Organic,Active,Mobile,5.5,v3.8.3,4,658.52
+420,Customer_420,37,Non-binary,Tier 1,135168.82,2024-12-12 00:07:28.144311,Social Media,Inactive,Tablet,10.21,v1.7.2,15,1949.04
+421,Customer_421,26,Female,Metro,20120.82,2024-11-13 00:07:28.144311,Organic,Active,Mobile,21.87,v2.7.8,19,3383.02
+422,Customer_422,40,Non-binary,Rural,124488.18,2024-10-01 00:07:28.144311,Referral,Active,Tablet,24.55,v3.8.1,19,2819.39
+423,Customer_423,34,Male,Tier 1,145477.25,2024-10-16 00:07:28.144311,Referral,Active,Tablet,10.16,v1.2.5,18,3255.33
+424,Customer_424,33,Male,Rural,123357.54,2024-10-31 00:07:28.144311,Referral,Inactive,Mobile,21.44,v3.2.0,15,2573.15
+425,Customer_425,57,Non-binary,Rural,30712.78,2024-10-06 00:07:28.144311,Social Media,Active,Mobile,12.56,v1.6.1,3,260.02
+426,Customer_426,41,Female,Tier 2,130932.8,2024-11-30 00:07:28.144311,Referral,Active,Desktop,17.76,v3.1.2,10,2653.55
+427,Customer_427,31,Non-binary,Tier 1,30953.2,2024-11-01 00:07:28.144311,Social Media,Active,Desktop,25.3,v2.6.8,12,2715.12
+428,Customer_428,25,Female,Rural,101247.37,2024-12-22 00:07:28.144311,Ad Campaign,Active,Desktop,22.94,v3.5.6,11,1084.97
+429,Customer_429,28,Female,Metro,102686.15,2024-10-23 00:07:28.144311,Social Media,Active,Desktop,20.11,v3.4.2,19,5385.86
+430,Customer_430,52,Female,Tier 2,111732.6,2024-10-25 00:07:28.144311,Referral,Active,Desktop,20.3,v2.1.5,14,3718.74
+431,Customer_431,25,Non-binary,Tier 2,101851.68,2024-10-09 00:07:28.144311,Organic,Active,Mobile,8.48,v2.3.0,12,3527.34
+432,Customer_432,32,Female,Metro,42307.53,2024-10-04 00:07:28.144311,Ad Campaign,Active,Desktop,17.64,v1.8.5,13,3843.9
+433,Customer_433,19,Male,Metro,106209.01,2024-10-30 00:07:28.144311,Ad Campaign,Active,Mobile,15.27,v2.2.4,15,3949.66
+434,Customer_434,66,Non-binary,Metro,55993.1,2024-12-23 00:07:28.144311,Social Media,Active,Tablet,23.66,v1.6.8,4,459.6
+435,Customer_435,33,Non-binary,Metro,94198.99,2024-10-13 00:07:28.144311,Organic,Inactive,Tablet,5.01,v2.5.5,1,91.95
+436,Customer_436,55,Non-binary,Tier 1,133905.02,2024-10-15 00:07:28.144311,Organic,Active,Mobile,7.98,v1.1.0,9,698.86
+437,Customer_437,53,Female,Tier 1,50254.69,2024-09-29 00:07:28.144311,Ad Campaign,Active,Mobile,14.8,v2.5.0,4,886.51
+438,Customer_438,59,Male,Tier 2,120513.86,2024-11-01 00:07:28.144311,Referral,New,Tablet,16.52,v3.6.7,17,5044.31
+439,Customer_439,57,Female,Tier 1,121725.02,2024-10-18 00:07:28.144311,Ad Campaign,Active,Tablet,7.43,v1.8.2,18,982.24
+440,Customer_440,37,Non-binary,Tier 1,148945.6,2024-11-01 00:07:28.144311,Organic,Active,Desktop,9.62,v2.8.6,2,281.64
+441,Customer_441,46,Female,Tier 2,137688.87,2024-11-26 00:07:28.144311,Referral,Active,Tablet,26.0,v2.1.6,16,2058.52
+442,Customer_442,40,Male,Tier 2,121810.99,2024-12-03 00:07:28.144311,Referral,Active,Desktop,13.16,v2.2.1,0,0.0
+443,Customer_443,46,Female,Metro,42343.95,2024-12-24 00:07:28.144311,Referral,Active,Desktop,26.35,v2.0.3,9,1580.55
+444,Customer_444,34,Male,Tier 2,135464.88,2024-11-11 00:07:28.144311,Organic,Active,Desktop,26.96,v1.3.6,18,4054.21
+445,Customer_445,67,Male,Metro,85434.87,2024-10-16 00:07:28.144311,Ad Campaign,Active,Mobile,8.89,v1.5.2,17,1787.16
+446,Customer_446,50,Non-binary,Tier 2,55618.45,2024-12-18 00:07:28.144311,Referral,Inactive,Tablet,23.37,v1.6.8,4,341.2
+447,Customer_447,50,Non-binary,Tier 1,69610.14,2024-10-08 00:07:28.144311,Organic,Active,Desktop,20.71,v1.1.0,8,1462.22
+448,Customer_448,24,Non-binary,Tier 1,101306.35,2024-10-04 00:07:28.144311,Referral,New,Mobile,19.05,v2.6.6,1,222.2
+449,Customer_449,38,Female,Rural,37194.93,2024-10-12 00:07:28.144311,Referral,Active,Tablet,19.11,v1.0.1,1,144.56
+450,Customer_450,67,Non-binary,Metro,64580.86,2024-09-29 00:07:28.144311,Social Media,New,Desktop,19.39,v3.8.4,15,1653.01
+451,Customer_451,55,Male,Metro,90913.74,2024-12-08 00:07:28.144311,Social Media,Inactive,Tablet,14.93,v2.7.8,3,844.54
+452,Customer_452,67,Female,Rural,112910.44,2024-10-01 00:07:28.144311,Organic,Active,Mobile,18.85,v1.0.1,9,824.02
+453,Customer_453,54,Male,Tier 1,46164.29,2024-12-11 00:07:28.144311,Organic,Active,Tablet,17.55,v3.8.4,18,1291.99
+454,Customer_454,43,Male,Tier 1,64477.24,2024-11-06 00:07:28.144311,Ad Campaign,Inactive,Desktop,13.79,v2.2.0,11,2645.98
+455,Customer_455,66,Non-binary,Tier 2,76380.26,2024-10-31 00:07:28.144311,Ad Campaign,Active,Mobile,20.03,v2.3.7,0,0.0
+456,Customer_456,27,Female,Rural,70370.64,2024-10-14 00:07:28.144311,Organic,Active,Tablet,20.87,v3.8.6,0,0.0
+457,Customer_457,62,Non-binary,Tier 2,145745.25,2024-11-29 00:07:28.144311,Referral,Active,Tablet,12.49,v2.0.7,1,216.68
+458,Customer_458,38,Female,Tier 1,147046.9,2024-10-07 00:07:28.144311,Organic,Active,Tablet,8.46,v2.3.3,13,2600.82
+459,Customer_459,29,Female,Rural,146803.35,2024-12-09 00:07:28.144311,Referral,Active,Mobile,17.89,v1.3.5,17,2243.33
+460,Customer_460,47,Male,Tier 2,44925.71,2024-11-07 00:07:28.144311,Referral,Active,Desktop,26.29,v1.6.4,10,1185.3
+461,Customer_461,20,Female,Metro,111858.54,2024-11-18 00:07:28.144311,Organic,Active,Mobile,12.16,v2.4.7,10,2260.84
+462,Customer_462,59,Male,Tier 2,59814.83,2024-12-11 00:07:28.144311,Ad Campaign,Inactive,Desktop,11.47,v1.0.0,2,251.39
+463,Customer_463,68,Male,Rural,27450.34,2024-11-13 00:07:28.144311,Organic,Active,Mobile,20.43,v2.4.2,1,80.35
+464,Customer_464,27,Female,Tier 1,44963.04,2024-11-04 00:07:28.144311,Referral,Active,Desktop,11.22,v2.7.4,3,298.17
+465,Customer_465,37,Male,Tier 1,76711.98,2024-12-11 00:07:28.144311,Social Media,Active,Mobile,25.13,v2.6.3,6,731.82
+466,Customer_466,43,Female,Tier 1,24772.68,2024-11-11 00:07:28.144311,Ad Campaign,Active,Desktop,6.02,v2.0.2,17,1118.2
+467,Customer_467,68,Female,Rural,146419.98,2024-10-16 00:07:28.144311,Organic,Active,Desktop,17.09,v3.1.7,19,4927.99
+468,Customer_468,65,Female,Tier 2,53195.94,2024-11-03 00:07:28.144311,Ad Campaign,New,Tablet,16.66,v3.1.8,19,2968.53
+469,Customer_469,40,Male,Tier 2,25869.68,2024-11-22 00:07:28.144311,Organic,Active,Desktop,15.54,v2.3.2,18,3499.26
+470,Customer_470,35,Female,Tier 1,61019.31,2024-11-25 00:07:28.144311,Social Media,Active,Desktop,24.16,v3.1.3,0,0.0
+471,Customer_471,57,Male,Rural,130263.59,2024-10-04 00:07:28.144311,Organic,Active,Tablet,23.94,v2.0.7,1,64.06
+472,Customer_472,25,Female,Metro,91152.21,2024-11-29 00:07:28.144311,Ad Campaign,New,Desktop,13.58,v2.7.1,10,2358.59
+473,Customer_473,35,Male,Metro,98417.7,2024-12-23 00:07:28.144311,Referral,Active,Tablet,26.27,v3.7.8,14,3779.43
+474,Customer_474,22,Non-binary,Tier 1,113500.47,2024-11-14 00:07:28.144311,Organic,Active,Desktop,10.04,v3.6.7,2,250.48
+475,Customer_475,65,Male,Tier 1,81640.53,2024-12-14 00:07:28.144311,Social Media,Active,Mobile,29.89,v1.0.6,7,710.51
+476,Customer_476,33,Female,Metro,148154.48,2024-10-06 00:07:28.144311,Referral,New,Mobile,5.22,v2.4.0,8,1476.73
+477,Customer_477,69,Female,Rural,127843.56,2024-10-17 00:07:28.144311,Ad Campaign,Inactive,Mobile,16.13,v1.5.3,0,0.0
+478,Customer_478,58,Male,Rural,149677.36,2024-11-12 00:07:28.144311,Organic,Active,Desktop,6.59,v3.5.2,9,1135.1
+479,Customer_479,21,Non-binary,Tier 1,26109.03,2024-11-19 00:07:28.144311,Organic,Active,Tablet,25.05,v3.8.4,17,3998.69
+480,Customer_480,51,Male,Tier 1,71188.17,2024-11-14 00:07:28.144311,Referral,Active,Desktop,12.29,v1.1.0,6,1295.61
+481,Customer_481,34,Non-binary,Tier 2,132524.26,2024-11-09 00:07:28.144311,Ad Campaign,Active,Tablet,19.95,v2.6.5,3,675.82
+482,Customer_482,26,Non-binary,Tier 2,20955.9,2024-09-28 00:07:28.144311,Social Media,Active,Desktop,17.7,v3.7.2,10,1754.86
+483,Customer_483,41,Male,Rural,66763.58,2024-10-29 00:07:28.144311,Referral,Active,Desktop,16.42,v2.3.2,16,1132.89
+484,Customer_484,67,Non-binary,Rural,28938.01,2024-10-31 00:07:28.144311,Organic,Active,Desktop,26.85,v2.6.5,19,1209.4
+485,Customer_485,45,Male,Metro,57813.99,2024-11-18 00:07:28.144311,Organic,Active,Mobile,9.82,v2.3.3,19,4655.23
+486,Customer_486,62,Non-binary,Metro,41604.05,2024-10-18 00:07:28.144311,Referral,Inactive,Mobile,5.18,v2.8.6,4,650.24
+487,Customer_487,27,Female,Tier 2,147882.51,2024-11-04 00:07:28.144311,Organic,New,Mobile,12.05,v1.4.0,8,494.12
+488,Customer_488,48,Male,Rural,75685.73,2024-10-23 00:07:28.144311,Referral,Active,Mobile,7.8,v1.0.3,11,1620.32
+489,Customer_489,23,Male,Metro,122074.68,2024-12-04 00:07:28.144311,Social Media,Inactive,Tablet,17.72,v2.5.8,4,342.81
+490,Customer_490,35,Non-binary,Tier 1,143778.71,2024-12-06 00:07:28.144311,Social Media,Active,Mobile,6.37,v1.2.8,7,620.41
+491,Customer_491,62,Female,Metro,53643.01,2024-11-03 00:07:28.144311,Social Media,New,Mobile,16.81,v3.5.2,12,1641.58
+492,Customer_492,26,Male,Metro,125388.86,2024-10-03 00:07:28.144311,Social Media,New,Desktop,20.25,v3.3.8,16,896.16
+493,Customer_493,19,Non-binary,Tier 1,110078.16,2024-12-08 00:07:28.144311,Organic,Inactive,Mobile,28.9,v3.0.6,3,222.73
+494,Customer_494,21,Female,Metro,130931.23,2024-10-10 00:07:28.144311,Social Media,Active,Mobile,11.79,v2.4.1,9,2678.14
+495,Customer_495,29,Female,Metro,130739.97,2024-10-11 00:07:28.144311,Referral,New,Mobile,13.67,v1.7.2,18,2420.92
+496,Customer_496,37,Male,Metro,49169.79,2024-12-24 00:07:28.144311,Ad Campaign,Active,Desktop,9.64,v3.5.1,15,4376.13
+497,Customer_497,44,Female,Tier 2,38128.53,2024-10-04 00:07:28.144311,Social Media,Active,Desktop,22.95,v3.3.1,5,578.11
+498,Customer_498,26,Non-binary,Metro,51719.39,2024-11-04 00:07:28.144311,Referral,Active,Tablet,13.7,v3.3.8,11,991.74
+499,Customer_499,31,Female,Tier 2,55551.69,2024-12-05 00:07:28.144311,Organic,New,Desktop,14.66,v1.6.8,11,3158.43
+500,Customer_500,61,Female,Tier 1,60231.04,2024-12-13 00:07:28.144311,Referral,Active,Tablet,18.06,v2.0.3,6,1321.92
+501,Customer_501,48,Non-binary,Rural,69515.75,2024-11-21 00:07:28.144311,Ad Campaign,Active,Mobile,23.49,v2.1.5,17,2623.91
+502,Customer_502,49,Non-binary,Tier 2,37391.16,2024-10-12 00:07:28.144311,Referral,New,Mobile,13.7,v3.7.1,3,217.17
+503,Customer_503,41,Male,Rural,47760.57,2024-10-17 00:07:28.144311,Social Media,Active,Desktop,17.73,v1.7.5,3,803.69
+504,Customer_504,52,Non-binary,Rural,51415.66,2024-11-15 00:07:28.144311,Social Media,Active,Desktop,11.69,v1.7.3,13,3395.81
+505,Customer_505,44,Female,Metro,43772.39,2024-10-05 00:07:28.144311,Organic,Inactive,Mobile,15.23,v3.5.6,2,246.96
+506,Customer_506,29,Male,Rural,130732.74,2024-12-12 00:07:28.144311,Organic,Active,Mobile,20.24,v2.0.8,7,1104.62
+507,Customer_507,62,Non-binary,Tier 2,53892.14,2024-09-26 00:07:28.144311,Referral,Active,Mobile,19.23,v2.3.1,2,125.58
+508,Customer_508,28,Male,Tier 2,58537.84,2024-10-16 00:07:28.144311,Organic,Active,Mobile,6.32,v1.6.6,16,2620.3
+509,Customer_509,23,Male,Tier 2,33807.8,2024-10-16 00:07:28.144311,Ad Campaign,Inactive,Tablet,20.71,v3.0.7,4,964.78
+510,Customer_510,50,Female,Tier 1,88731.95,2024-12-07 00:07:28.144311,Ad Campaign,New,Mobile,15.88,v3.1.6,0,0.0
+511,Customer_511,55,Non-binary,Tier 1,134026.58,2024-12-12 00:07:28.144311,Organic,Active,Mobile,21.24,v1.6.3,12,747.93
+512,Customer_512,24,Female,Tier 2,53806.25,2024-11-17 00:07:28.144311,Organic,Inactive,Tablet,29.24,v2.2.8,18,2865.41
+513,Customer_513,20,Male,Rural,105048.66,2024-10-28 00:07:28.144311,Referral,Active,Mobile,15.2,v2.1.3,10,2202.38
+514,Customer_514,18,Non-binary,Tier 2,90094.84,2024-11-27 00:07:28.144311,Referral,Active,Desktop,15.98,v3.2.1,17,1123.01
+515,Customer_515,27,Male,Metro,75496.31,2024-10-26 00:07:28.144311,Ad Campaign,Inactive,Tablet,11.88,v2.4.0,14,4103.99
+516,Customer_516,66,Non-binary,Tier 1,106035.39,2024-09-26 00:07:28.144311,Organic,Active,Tablet,22.88,v2.7.4,14,2994.28
+517,Customer_517,18,Male,Tier 2,133060.47,2024-12-12 00:07:28.144311,Social Media,Inactive,Desktop,6.92,v2.5.5,13,3697.4
+518,Customer_518,25,Male,Metro,107315.83,2024-12-04 00:07:28.144311,Social Media,Inactive,Desktop,5.62,v2.1.8,15,2934.5
+519,Customer_519,47,Female,Tier 1,95716.56,2024-10-06 00:07:28.144311,Social Media,Active,Tablet,15.03,v3.6.8,7,568.52
+520,Customer_520,55,Female,Tier 2,126534.44,2024-10-13 00:07:28.144311,Organic,Active,Mobile,5.67,v3.0.7,4,1093.11
+521,Customer_521,59,Male,Tier 2,110202.21,2024-10-20 00:07:28.144311,Organic,Active,Desktop,29.07,v2.3.8,2,401.13
+522,Customer_522,23,Male,Tier 1,29202.89,2024-10-04 00:07:28.144311,Referral,Inactive,Tablet,23.69,v3.7.3,0,0.0
+523,Customer_523,18,Male,Rural,144011.78,2024-12-22 00:07:28.144311,Ad Campaign,Active,Tablet,20.53,v1.0.7,9,2157.7
+524,Customer_524,45,Non-binary,Metro,52939.32,2024-10-07 00:07:28.144311,Social Media,Active,Tablet,19.84,v3.2.3,10,2820.04
+525,Customer_525,30,Female,Tier 2,57992.36,2024-11-14 00:07:28.144311,Ad Campaign,New,Desktop,11.31,v3.6.0,0,0.0
+526,Customer_526,32,Female,Metro,99778.81,2024-11-23 00:07:28.144311,Social Media,Active,Mobile,28.64,v1.0.7,2,251.87
+527,Customer_527,53,Male,Tier 2,33605.86,2024-10-28 00:07:28.144311,Referral,Active,Desktop,8.26,v3.3.4,3,275.14
+528,Customer_528,53,Male,Tier 1,66028.39,2024-11-14 00:07:28.144311,Ad Campaign,Active,Mobile,10.46,v3.6.5,16,4363.9
+529,Customer_529,48,Non-binary,Metro,75221.83,2024-11-06 00:07:28.144311,Organic,Active,Tablet,16.68,v1.2.6,14,3804.65
+530,Customer_530,19,Non-binary,Metro,121490.91,2024-10-04 00:07:28.144311,Social Media,Active,Mobile,15.75,v3.2.4,16,1193.38
+531,Customer_531,49,Female,Tier 2,42721.57,2024-11-10 00:07:28.144311,Ad Campaign,Active,Mobile,16.85,v2.8.8,17,3914.48
+532,Customer_532,32,Female,Rural,122877.18,2024-10-07 00:07:28.144311,Organic,Active,Tablet,8.65,v3.2.2,17,3383.19
+533,Customer_533,55,Male,Tier 1,138243.38,2024-12-05 00:07:28.144311,Ad Campaign,New,Mobile,10.29,v3.0.3,4,283.96
+534,Customer_534,51,Male,Tier 1,148503.76,2024-11-10 00:07:28.144311,Organic,New,Mobile,12.49,v2.1.2,8,1084.45
+535,Customer_535,20,Female,Rural,74100.92,2024-12-12 00:07:28.144311,Referral,Inactive,Desktop,6.36,v2.5.8,11,881.04
+536,Customer_536,61,Non-binary,Tier 1,51682.07,2024-10-09 00:07:28.144311,Ad Campaign,Active,Tablet,22.71,v3.8.1,4,700.03
+537,Customer_537,23,Female,Tier 2,58983.65,2024-12-22 00:07:28.144311,Ad Campaign,Active,Mobile,13.62,v2.0.0,3,603.23
+538,Customer_538,56,Female,Tier 1,40074.05,2024-11-03 00:07:28.144311,Ad Campaign,Active,Mobile,10.91,v2.7.1,14,4059.11
+539,Customer_539,37,Male,Tier 2,72880.59,2024-10-07 00:07:28.144311,Social Media,Active,Desktop,28.64,v2.2.1,9,2138.72
+540,Customer_540,58,Male,Tier 2,134137.19,2024-12-09 00:07:28.144311,Referral,Active,Mobile,16.0,v1.4.0,4,458.3
+541,Customer_541,30,Male,Tier 2,78251.11,2024-12-07 00:07:28.144311,Ad Campaign,New,Tablet,13.97,v3.0.0,16,3063.41
+542,Customer_542,66,Female,Tier 1,137578.87,2024-09-28 00:07:28.144311,Ad Campaign,Active,Tablet,7.04,v2.5.5,5,858.54
+543,Customer_543,29,Non-binary,Tier 1,90582.26,2024-12-02 00:07:28.144311,Social Media,Active,Tablet,28.25,v1.8.4,8,729.13
+544,Customer_544,19,Male,Metro,141365.46,2024-10-28 00:07:28.144311,Ad Campaign,Active,Desktop,7.11,v3.5.6,15,3116.69
+545,Customer_545,36,Non-binary,Tier 1,145558.77,2024-10-10 00:07:28.144311,Organic,Inactive,Mobile,22.94,v1.0.1,11,766.22
+546,Customer_546,19,Male,Metro,72896.8,2024-12-01 00:07:28.144311,Referral,Active,Desktop,22.12,v2.2.5,14,2138.95
+547,Customer_547,59,Male,Tier 2,67594.71,2024-11-06 00:07:28.144311,Social Media,Active,Desktop,13.46,v3.1.5,18,2735.72
+548,Customer_548,46,Non-binary,Tier 1,122710.82,2024-11-30 00:07:28.144311,Social Media,New,Desktop,20.83,v2.8.5,0,0.0
+549,Customer_549,59,Non-binary,Tier 1,87630.15,2024-11-11 00:07:28.144311,Social Media,New,Mobile,27.69,v2.3.2,11,2787.7
+550,Customer_550,19,Female,Tier 1,145867.15,2024-10-17 00:07:28.144311,Organic,Inactive,Mobile,6.25,v1.1.7,0,0.0
+551,Customer_551,63,Male,Tier 2,144847.68,2024-11-24 00:07:28.144311,Referral,Active,Tablet,22.53,v3.2.1,6,1199.04
+552,Customer_552,22,Male,Metro,79743.19,2024-10-25 00:07:28.144311,Ad Campaign,Active,Mobile,17.58,v2.5.8,2,424.13
+553,Customer_553,68,Male,Metro,47694.59,2024-11-07 00:07:28.144311,Organic,New,Desktop,17.96,v1.1.5,6,679.8
+554,Customer_554,64,Female,Tier 2,100899.39,2024-10-02 00:07:28.144311,Referral,Active,Tablet,26.66,v2.3.1,19,2935.42
+555,Customer_555,62,Female,Tier 2,145202.24,2024-09-28 00:07:28.144311,Social Media,Inactive,Mobile,7.55,v3.1.1,14,1517.92
+556,Customer_556,22,Female,Rural,112775.84,2024-12-01 00:07:28.144311,Ad Campaign,Active,Desktop,15.45,v1.6.2,17,2776.39
+557,Customer_557,31,Non-binary,Metro,30260.88,2024-12-04 00:07:28.144311,Organic,Active,Desktop,28.76,v2.3.2,6,811.45
+558,Customer_558,35,Non-binary,Tier 1,130082.05,2024-12-07 00:07:28.144311,Organic,Active,Mobile,23.15,v3.5.2,4,727.76
+559,Customer_559,42,Female,Tier 1,120511.8,2024-12-14 00:07:28.144311,Referral,Active,Mobile,16.52,v3.0.6,15,4039.91
+560,Customer_560,33,Female,Rural,58804.1,2024-12-04 00:07:28.144311,Ad Campaign,Active,Mobile,9.61,v2.7.3,1,69.16
+561,Customer_561,55,Non-binary,Rural,120862.46,2024-10-31 00:07:28.144311,Organic,Inactive,Mobile,23.55,v3.8.5,6,828.79
+562,Customer_562,48,Non-binary,Tier 2,56633.66,2024-12-08 00:07:28.144311,Ad Campaign,Active,Tablet,9.9,v1.5.8,19,3537.92
+563,Customer_563,35,Male,Tier 1,84160.68,2024-10-22 00:07:28.144311,Social Media,Active,Tablet,18.2,v2.4.2,10,2998.65
+564,Customer_564,48,Male,Rural,98370.03,2024-09-29 00:07:28.144311,Referral,Active,Desktop,21.67,v1.1.1,19,1436.08
+565,Customer_565,21,Female,Tier 1,34561.52,2024-10-27 00:07:28.144311,Ad Campaign,Active,Tablet,7.71,v1.4.1,17,966.75
+566,Customer_566,27,Non-binary,Metro,143004.3,2024-10-23 00:07:28.144311,Social Media,Active,Mobile,23.12,v3.6.8,9,2077.49
+567,Customer_567,36,Female,Metro,40122.18,2024-11-05 00:07:28.144311,Referral,Active,Tablet,16.25,v1.2.2,4,849.54
+568,Customer_568,35,Male,Rural,101359.36,2024-10-05 00:07:28.144311,Referral,Active,Tablet,18.18,v3.3.1,1,230.76
+569,Customer_569,46,Male,Rural,35123.12,2024-11-27 00:07:28.144311,Ad Campaign,New,Mobile,5.39,v2.2.7,5,571.04
+570,Customer_570,41,Male,Rural,103564.86,2024-11-21 00:07:28.144311,Social Media,Inactive,Desktop,20.97,v1.1.8,10,681.31
+571,Customer_571,24,Non-binary,Metro,139605.21,2024-09-30 00:07:28.144311,Ad Campaign,New,Mobile,28.17,v3.1.1,7,1218.9
+572,Customer_572,62,Male,Rural,51658.68,2024-12-20 00:07:28.144311,Organic,Inactive,Tablet,18.0,v3.8.4,1,140.4
+573,Customer_573,57,Non-binary,Tier 1,69306.84,2024-10-08 00:07:28.144311,Organic,Active,Tablet,24.52,v1.6.5,4,754.1
+574,Customer_574,48,Non-binary,Tier 1,146370.31,2024-10-03 00:07:28.144311,Social Media,Active,Desktop,14.77,v3.6.1,9,2090.72
+575,Customer_575,26,Non-binary,Tier 1,41996.4,2024-11-10 00:07:28.144311,Ad Campaign,New,Tablet,7.15,v3.6.6,14,1881.17
+576,Customer_576,57,Female,Tier 2,70522.02,2024-12-06 00:07:28.144311,Referral,Inactive,Desktop,25.91,v1.2.5,2,195.29
+577,Customer_577,35,Non-binary,Rural,85113.96,2024-11-01 00:07:28.144311,Ad Campaign,New,Mobile,28.52,v2.8.1,0,0.0
+578,Customer_578,61,Non-binary,Rural,53236.61,2024-10-26 00:07:28.144311,Organic,Inactive,Desktop,25.67,v3.0.3,0,0.0
+579,Customer_579,49,Male,Metro,76175.11,2024-10-29 00:07:28.144311,Ad Campaign,Active,Desktop,14.74,v3.4.5,19,4267.11
+580,Customer_580,20,Female,Tier 2,111280.38,2024-11-09 00:07:28.144311,Ad Campaign,Active,Desktop,17.13,v1.5.7,4,576.19
+581,Customer_581,57,Female,Rural,98141.85,2024-12-08 00:07:28.144311,Organic,Active,Tablet,11.74,v1.0.0,12,2331.56
+582,Customer_582,38,Male,Tier 1,109050.79,2024-12-12 00:07:28.144311,Organic,New,Desktop,7.04,v2.8.0,8,1217.4
+583,Customer_583,29,Female,Metro,50873.19,2024-09-27 00:07:28.144311,Referral,Active,Desktop,15.54,v2.6.7,7,1075.26
+584,Customer_584,21,Male,Tier 1,106426.34,2024-11-20 00:07:28.144311,Organic,Active,Tablet,25.61,v3.5.7,0,0.0
+585,Customer_585,56,Non-binary,Rural,39345.13,2024-10-24 00:07:28.144311,Social Media,Active,Mobile,16.46,v1.6.6,3,786.36
+586,Customer_586,61,Male,Tier 1,81074.56,2024-11-27 00:07:28.144311,Social Media,Active,Desktop,17.59,v1.3.4,8,785.38
+587,Customer_587,49,Female,Tier 2,88350.14,2024-10-01 00:07:28.144311,Organic,Inactive,Tablet,27.25,v1.8.2,2,546.03
+588,Customer_588,24,Female,Rural,92442.74,2024-11-16 00:07:28.144311,Organic,Inactive,Tablet,7.2,v1.3.0,13,1106.65
+589,Customer_589,29,Female,Tier 1,130375.69,2024-12-17 00:07:28.144311,Referral,Inactive,Mobile,22.11,v3.1.3,15,974.11
+590,Customer_590,36,Female,Tier 1,86571.51,2024-09-26 00:07:28.144311,Referral,Active,Desktop,14.9,v1.6.8,6,1442.9
+591,Customer_591,49,Female,Tier 1,135367.42,2024-11-20 00:07:28.144311,Ad Campaign,Active,Tablet,7.57,v1.1.7,19,4376.88
+592,Customer_592,60,Female,Rural,83805.34,2024-10-16 00:07:28.144311,Referral,Active,Desktop,7.87,v3.5.5,7,1614.97
+593,Customer_593,68,Female,Tier 2,38720.42,2024-11-21 00:07:28.144311,Referral,Active,Mobile,6.59,v2.1.1,6,442.02
+594,Customer_594,40,Female,Rural,44861.48,2024-09-27 00:07:28.144311,Organic,Active,Tablet,22.13,v1.0.2,19,4286.04
+595,Customer_595,62,Non-binary,Tier 2,53981.65,2024-11-06 00:07:28.144311,Social Media,Active,Tablet,16.23,v2.8.1,3,537.85
+596,Customer_596,57,Female,Rural,36493.47,2024-12-06 00:07:28.144311,Referral,Active,Desktop,15.15,v3.5.7,15,4314.39
+597,Customer_597,65,Non-binary,Tier 2,41277.84,2024-12-13 00:07:28.144311,Organic,Active,Tablet,10.96,v1.3.4,4,1091.31
+598,Customer_598,42,Non-binary,Tier 2,88160.94,2024-10-15 00:07:28.144311,Organic,Inactive,Desktop,5.9,v3.3.3,12,3163.55
+599,Customer_599,59,Male,Tier 2,46863.61,2024-12-13 00:07:28.144311,Ad Campaign,Active,Desktop,26.37,v2.1.6,14,2579.79
+600,Customer_600,51,Non-binary,Rural,47533.76,2024-10-20 00:07:28.144311,Organic,Active,Mobile,27.69,v1.2.6,5,699.33
+601,Customer_601,54,Female,Metro,137212.06,2024-09-28 00:07:28.144311,Ad Campaign,New,Desktop,28.13,v3.5.6,1,201.74
+602,Customer_602,23,Male,Metro,145752.65,2024-11-25 00:07:28.144311,Referral,Inactive,Mobile,18.98,v3.5.1,9,1444.65
+603,Customer_603,50,Male,Metro,82882.8,2024-10-21 00:07:28.144311,Social Media,Active,Mobile,22.83,v3.0.6,13,3103.53
+604,Customer_604,54,Female,Metro,97174.32,2024-11-30 00:07:28.144311,Ad Campaign,Active,Mobile,9.75,v2.3.4,12,2568.0
+605,Customer_605,42,Female,Tier 2,91469.39,2024-11-22 00:07:28.144311,Ad Campaign,Active,Mobile,6.95,v2.7.3,7,1345.61
+606,Customer_606,42,Non-binary,Metro,138637.91,2024-09-30 00:07:28.144311,Social Media,Active,Tablet,15.26,v3.0.4,12,2971.54
+607,Customer_607,31,Non-binary,Tier 2,100111.28,2024-11-07 00:07:28.144311,Referral,Active,Mobile,27.55,v1.4.8,19,1958.32
+608,Customer_608,51,Female,Tier 1,36778.47,2024-10-16 00:07:28.144311,Social Media,Inactive,Desktop,9.88,v3.8.4,5,1091.03
+609,Customer_609,67,Female,Metro,45957.07,2024-10-07 00:07:28.144311,Ad Campaign,Active,Tablet,15.16,v2.2.0,13,1207.95
+610,Customer_610,29,Female,Tier 2,64935.4,2024-11-16 00:07:28.144311,Referral,Active,Desktop,21.64,v2.8.7,8,2213.73
+611,Customer_611,58,Female,Rural,108098.6,2024-12-10 00:07:28.144311,Referral,Active,Tablet,27.37,v3.3.5,14,3822.83
+612,Customer_612,67,Non-binary,Tier 2,132449.35,2024-09-28 00:07:28.144311,Ad Campaign,Active,Tablet,18.03,v3.5.4,10,1899.29
+613,Customer_613,18,Non-binary,Tier 1,70447.6,2024-10-25 00:07:28.144311,Referral,Active,Desktop,28.32,v2.0.0,13,3488.26
+614,Customer_614,28,Non-binary,Tier 2,131636.85,2024-12-01 00:07:28.144311,Organic,Active,Tablet,6.09,v2.0.0,10,2661.01
+615,Customer_615,60,Male,Metro,88844.45,2024-11-01 00:07:28.144311,Referral,Active,Mobile,18.59,v2.2.0,9,1113.08
+616,Customer_616,47,Non-binary,Tier 2,69264.27,2024-12-16 00:07:28.144311,Ad Campaign,Active,Mobile,24.96,v1.2.3,7,943.67
+617,Customer_617,26,Male,Rural,112157.0,2024-10-10 00:07:28.144311,Ad Campaign,Inactive,Mobile,8.85,v2.6.4,15,3646.0
+618,Customer_618,54,Non-binary,Tier 2,116945.39,2024-10-05 00:07:28.144311,Social Media,New,Tablet,5.43,v1.0.1,14,2308.71
+619,Customer_619,35,Non-binary,Metro,74162.68,2024-12-21 00:07:28.144311,Organic,Active,Mobile,9.45,v1.7.1,15,1391.57
+620,Customer_620,36,Male,Rural,103108.41,2024-12-15 00:07:28.144311,Organic,Inactive,Mobile,6.85,v3.2.8,4,487.4
+621,Customer_621,39,Male,Tier 2,31239.48,2024-12-02 00:07:28.144311,Social Media,Active,Mobile,9.44,v2.8.0,0,0.0
+622,Customer_622,23,Male,Tier 2,146427.92,2024-10-24 00:07:28.144311,Organic,Active,Mobile,27.03,v2.3.4,3,627.08
+623,Customer_623,39,Non-binary,Rural,40399.25,2024-11-26 00:07:28.144311,Referral,Inactive,Tablet,8.46,v1.6.4,0,0.0
+624,Customer_624,37,Female,Tier 2,142033.51,2024-11-07 00:07:28.144311,Organic,Active,Mobile,13.32,v1.0.4,15,1724.23
+625,Customer_625,45,Non-binary,Tier 2,60669.8,2024-12-08 00:07:28.144311,Organic,New,Tablet,7.76,v2.2.0,14,4052.69
+626,Customer_626,25,Male,Metro,61140.94,2024-10-17 00:07:28.144311,Ad Campaign,New,Mobile,21.66,v1.1.4,0,0.0
+627,Customer_627,42,Non-binary,Metro,125225.57,2024-10-10 00:07:28.144311,Ad Campaign,Inactive,Tablet,29.14,v2.1.1,1,179.4
+628,Customer_628,33,Male,Metro,57690.22,2024-11-05 00:07:28.144311,Organic,Active,Tablet,27.6,v2.2.5,10,898.49
+629,Customer_629,37,Male,Tier 1,41703.52,2024-10-12 00:07:28.144311,Ad Campaign,New,Mobile,13.27,v3.6.3,5,339.67
+630,Customer_630,43,Non-binary,Rural,70192.89,2024-12-06 00:07:28.144311,Organic,Active,Tablet,13.18,v3.8.7,10,2084.72
+631,Customer_631,43,Female,Metro,144509.67,2024-11-29 00:07:28.144311,Ad Campaign,Active,Desktop,22.88,v1.1.1,15,1321.09
+632,Customer_632,30,Non-binary,Metro,30778.9,2024-10-01 00:07:28.144311,Social Media,Active,Desktop,15.87,v2.5.5,7,1582.31
+633,Customer_633,54,Male,Metro,46765.35,2024-10-31 00:07:28.144311,Social Media,Active,Tablet,5.12,v2.5.0,15,2560.71
+634,Customer_634,28,Male,Metro,137098.82,2024-12-07 00:07:28.144311,Social Media,Active,Tablet,17.09,v3.7.1,18,4764.79
+635,Customer_635,25,Non-binary,Tier 2,54126.34,2024-09-30 00:07:28.144311,Organic,Active,Tablet,26.29,v2.4.4,10,2817.51
+636,Customer_636,64,Female,Tier 2,118157.85,2024-12-21 00:07:28.144311,Referral,Active,Tablet,15.3,v3.4.3,19,5119.77
+637,Customer_637,28,Male,Metro,72395.04,2024-10-10 00:07:28.144311,Organic,Active,Tablet,13.01,v1.6.2,18,2905.61
+638,Customer_638,30,Female,Rural,119619.53,2024-12-15 00:07:28.144311,Ad Campaign,Active,Tablet,19.82,v2.3.0,16,4328.94
+639,Customer_639,30,Female,Tier 2,146537.65,2024-12-09 00:07:28.144311,Ad Campaign,Active,Desktop,16.17,v3.3.4,16,3610.52
+640,Customer_640,60,Male,Tier 2,61475.71,2024-11-25 00:07:28.144311,Referral,Inactive,Tablet,12.45,v2.6.0,12,2581.41
+641,Customer_641,24,Non-binary,Rural,29831.95,2024-10-22 00:07:28.144311,Ad Campaign,Active,Mobile,18.67,v3.8.3,18,1773.58
+642,Customer_642,37,Male,Rural,65849.85,2024-10-13 00:07:28.144311,Ad Campaign,Active,Mobile,15.74,v1.7.5,15,3954.82
+643,Customer_643,32,Male,Tier 1,110203.95,2024-11-01 00:07:28.144311,Ad Campaign,Inactive,Desktop,21.68,v3.0.6,14,1527.2
+644,Customer_644,44,Non-binary,Metro,67931.38,2024-10-03 00:07:28.144311,Organic,Active,Desktop,18.34,v1.6.3,4,450.48
+645,Customer_645,58,Non-binary,Tier 1,44897.77,2024-12-02 00:07:28.144311,Referral,Inactive,Mobile,27.56,v3.2.3,16,3002.76
+646,Customer_646,18,Female,Tier 2,131637.76,2024-12-12 00:07:28.144311,Social Media,Active,Desktop,6.0,v2.3.0,3,157.06
+647,Customer_647,58,Female,Rural,96151.18,2024-10-11 00:07:28.144311,Social Media,Inactive,Tablet,16.22,v1.3.8,11,2174.74
+648,Customer_648,28,Male,Tier 1,141260.27,2024-09-27 00:07:28.144311,Referral,Active,Mobile,24.88,v1.8.7,4,727.26
+649,Customer_649,52,Non-binary,Tier 2,55463.21,2024-11-05 00:07:28.144311,Social Media,Inactive,Tablet,18.9,v2.8.7,14,2803.35
+650,Customer_650,36,Female,Tier 1,40129.55,2024-09-29 00:07:28.144311,Organic,New,Desktop,20.58,v3.4.0,3,580.48
+651,Customer_651,49,Male,Metro,94242.11,2024-09-29 00:07:28.144311,Social Media,Active,Desktop,16.5,v2.2.7,12,2561.98
+652,Customer_652,39,Non-binary,Tier 1,31153.26,2024-10-26 00:07:28.144311,Organic,Inactive,Mobile,8.18,v2.4.1,14,1528.22
+653,Customer_653,66,Female,Rural,61800.44,2024-10-08 00:07:28.144311,Social Media,Inactive,Tablet,11.54,v3.6.8,9,1638.11
+654,Customer_654,56,Female,Metro,139377.05,2024-11-12 00:07:28.144311,Referral,Active,Mobile,27.7,v3.8.6,9,2027.28
+655,Customer_655,40,Non-binary,Metro,35922.58,2024-11-11 00:07:28.144311,Ad Campaign,Inactive,Tablet,7.06,v1.5.0,17,4866.77
+656,Customer_656,24,Female,Tier 1,92036.4,2024-11-25 00:07:28.144311,Referral,Active,Tablet,23.46,v1.8.6,8,652.57
+657,Customer_657,20,Non-binary,Metro,81316.21,2024-11-03 00:07:28.144311,Ad Campaign,Inactive,Desktop,20.65,v2.4.0,19,4064.24
+658,Customer_658,45,Non-binary,Metro,135728.69,2024-10-22 00:07:28.144311,Referral,Inactive,Desktop,12.96,v2.3.8,4,937.06
+659,Customer_659,55,Female,Tier 1,101798.5,2024-11-04 00:07:28.144311,Organic,Active,Mobile,26.49,v2.7.2,18,4534.83
+660,Customer_660,36,Female,Metro,148919.2,2024-10-04 00:07:28.144311,Social Media,Active,Mobile,10.84,v1.3.8,2,396.28
+661,Customer_661,42,Male,Tier 1,98659.26,2024-11-28 00:07:28.144311,Organic,Active,Mobile,9.41,v3.2.6,3,248.31
+662,Customer_662,68,Non-binary,Rural,54461.59,2024-10-03 00:07:28.144311,Social Media,Active,Desktop,17.96,v2.0.8,18,1726.11
+663,Customer_663,48,Non-binary,Tier 2,69811.38,2024-09-28 00:07:28.144311,Ad Campaign,Active,Mobile,17.73,v2.8.3,10,768.54
+664,Customer_664,34,Non-binary,Tier 2,91322.46,2024-10-07 00:07:28.144311,Ad Campaign,Active,Mobile,29.2,v1.8.3,16,4589.71
+665,Customer_665,35,Non-binary,Rural,29508.53,2024-12-15 00:07:28.144311,Organic,Inactive,Mobile,20.33,v3.8.1,13,3593.14
+666,Customer_666,24,Female,Rural,56986.55,2024-11-16 00:07:28.144311,Referral,Active,Mobile,25.31,v1.8.0,10,1163.21
+667,Customer_667,39,Non-binary,Tier 1,71342.87,2024-10-05 00:07:28.144311,Social Media,Inactive,Tablet,23.01,v1.8.5,0,0.0
+668,Customer_668,30,Female,Rural,116832.5,2024-11-18 00:07:28.144311,Referral,New,Tablet,16.14,v2.4.3,1,86.86
+669,Customer_669,59,Female,Tier 1,105783.08,2024-12-04 00:07:28.144311,Social Media,Active,Mobile,20.15,v2.8.0,4,407.82
+670,Customer_670,47,Male,Metro,140597.69,2024-11-06 00:07:28.144311,Referral,Active,Mobile,29.05,v2.8.0,0,0.0
+671,Customer_671,59,Non-binary,Metro,104914.33,2024-11-26 00:07:28.144311,Ad Campaign,Active,Mobile,15.76,v1.0.0,11,747.95
+672,Customer_672,67,Non-binary,Tier 2,58684.19,2024-10-18 00:07:28.144311,Organic,New,Tablet,16.05,v1.6.3,5,1085.63
+673,Customer_673,33,Female,Tier 1,77555.67,2024-09-28 00:07:28.144311,Organic,Active,Mobile,20.19,v1.2.5,9,1938.58
+674,Customer_674,48,Non-binary,Rural,94553.93,2024-11-23 00:07:28.144311,Social Media,Inactive,Mobile,6.41,v1.4.6,3,351.38
+675,Customer_675,42,Non-binary,Tier 2,142725.37,2024-11-19 00:07:28.144311,Ad Campaign,Active,Desktop,15.62,v3.2.8,5,838.48
+676,Customer_676,60,Non-binary,Tier 2,62811.77,2024-11-20 00:07:28.144311,Social Media,Active,Mobile,9.21,v3.0.5,0,0.0
+677,Customer_677,60,Male,Tier 1,82417.54,2024-11-17 00:07:28.144311,Organic,Active,Mobile,17.87,v3.1.7,10,1556.35
+678,Customer_678,30,Male,Metro,30230.7,2024-10-19 00:07:28.144311,Ad Campaign,Active,Desktop,22.09,v3.5.7,17,4425.69
+679,Customer_679,19,Female,Tier 1,62304.38,2024-11-22 00:07:28.144311,Ad Campaign,Inactive,Mobile,13.72,v3.4.2,16,4380.14
+680,Customer_680,23,Non-binary,Metro,59180.93,2024-10-05 00:07:28.144311,Referral,Active,Tablet,15.11,v1.3.3,2,585.33
+681,Customer_681,34,Non-binary,Tier 1,76391.18,2024-11-10 00:07:28.144311,Social Media,Active,Desktop,17.13,v2.3.2,16,1143.64
+682,Customer_682,27,Non-binary,Metro,44442.04,2024-11-27 00:07:28.144311,Organic,Active,Mobile,14.19,v1.2.7,17,1768.54
+683,Customer_683,48,Non-binary,Rural,129583.5,2024-10-19 00:07:28.144311,Organic,Inactive,Mobile,11.99,v1.3.0,13,3099.23
+684,Customer_684,50,Female,Rural,112033.22,2024-10-01 00:07:28.144311,Organic,Active,Mobile,25.84,v3.4.8,2,438.49
+685,Customer_685,28,Male,Metro,149857.61,2024-10-26 00:07:28.144311,Referral,Active,Mobile,13.01,v2.0.5,13,2635.62
+686,Customer_686,31,Male,Metro,132901.9,2024-12-13 00:07:28.144311,Referral,Inactive,Desktop,13.35,v1.4.5,15,825.17
+687,Customer_687,65,Female,Metro,84631.75,2024-12-15 00:07:28.144311,Social Media,New,Desktop,5.2,v3.1.3,1,231.37
+688,Customer_688,36,Non-binary,Metro,72474.07,2024-10-17 00:07:28.144311,Social Media,Active,Desktop,7.73,v2.6.1,6,1055.43
+689,Customer_689,66,Male,Rural,72631.79,2024-12-21 00:07:28.144311,Ad Campaign,Inactive,Mobile,8.24,v2.0.3,6,790.41
+690,Customer_690,43,Male,Metro,44171.37,2024-12-09 00:07:28.144311,Organic,Active,Desktop,24.24,v2.3.0,9,2213.84
+691,Customer_691,68,Female,Metro,105512.54,2024-12-09 00:07:28.144311,Social Media,Inactive,Mobile,20.32,v1.1.7,8,1680.97
+692,Customer_692,24,Non-binary,Metro,35505.32,2024-11-08 00:07:28.144311,Ad Campaign,Active,Mobile,24.73,v2.4.8,0,0.0
+693,Customer_693,63,Female,Metro,41687.86,2024-10-16 00:07:28.144311,Organic,Active,Tablet,28.55,v3.6.2,17,2587.94
+694,Customer_694,53,Male,Tier 2,53180.22,2024-11-28 00:07:28.144311,Organic,Active,Tablet,25.54,v2.2.4,6,1380.92
+695,Customer_695,29,Non-binary,Rural,128191.08,2024-10-29 00:07:28.144311,Ad Campaign,Active,Tablet,14.18,v2.0.3,10,2791.61
+696,Customer_696,69,Male,Rural,68243.79,2024-12-03 00:07:28.144311,Organic,Active,Desktop,18.36,v1.7.1,0,0.0
+697,Customer_697,23,Male,Tier 2,26219.05,2024-10-06 00:07:28.144311,Ad Campaign,Inactive,Mobile,29.76,v1.7.2,4,504.58
+698,Customer_698,36,Female,Tier 1,95429.71,2024-11-22 00:07:28.144311,Referral,Active,Mobile,26.19,v3.5.8,6,1203.77
+699,Customer_699,65,Male,Rural,71634.3,2024-12-09 00:07:28.144311,Social Media,Active,Mobile,28.16,v3.8.7,4,292.27
+700,Customer_700,20,Non-binary,Metro,86746.48,2024-11-05 00:07:28.144311,Social Media,Inactive,Mobile,15.15,v1.6.3,12,2409.67
+701,Customer_701,51,Female,Tier 2,128923.53,2024-10-19 00:07:28.144311,Referral,Inactive,Tablet,20.58,v3.5.8,12,1598.07
+702,Customer_702,51,Non-binary,Rural,47676.25,2024-09-30 00:07:28.144311,Social Media,Active,Tablet,10.0,v1.3.1,17,1476.68
+703,Customer_703,39,Non-binary,Metro,125548.18,2024-10-21 00:07:28.144311,Organic,Active,Mobile,21.73,v1.8.6,4,499.01
+704,Customer_704,47,Male,Tier 1,56065.48,2024-10-06 00:07:28.144311,Organic,Active,Mobile,13.56,v1.7.1,3,583.41
+705,Customer_705,48,Male,Metro,57906.46,2024-12-24 00:07:28.144311,Referral,Inactive,Desktop,18.25,v3.7.2,6,708.43
+706,Customer_706,60,Male,Rural,59811.1,2024-10-21 00:07:28.144311,Organic,New,Mobile,8.54,v3.3.0,8,1323.85
+707,Customer_707,62,Female,Rural,64717.35,2024-10-02 00:07:28.144311,Organic,Inactive,Mobile,5.84,v3.7.3,6,346.59
+708,Customer_708,64,Female,Rural,82337.5,2024-12-16 00:07:28.144311,Organic,Active,Desktop,10.93,v2.4.6,5,1402.88
+709,Customer_709,62,Male,Metro,27109.0,2024-12-06 00:07:28.144311,Organic,New,Tablet,19.18,v2.7.5,15,2330.83
+710,Customer_710,34,Non-binary,Tier 2,90510.25,2024-12-17 00:07:28.144311,Ad Campaign,Active,Mobile,25.25,v3.5.4,18,3893.73
+711,Customer_711,31,Male,Rural,115673.96,2024-11-04 00:07:28.144311,Social Media,Active,Tablet,9.28,v1.1.0,3,268.71
+712,Customer_712,26,Male,Tier 2,75296.34,2024-11-22 00:07:28.144311,Ad Campaign,Active,Tablet,29.03,v2.5.1,19,1019.04
+713,Customer_713,65,Male,Tier 2,141711.25,2024-10-29 00:07:28.144311,Referral,Active,Tablet,14.45,v1.6.5,0,0.0
+714,Customer_714,22,Female,Tier 2,23346.51,2024-10-03 00:07:28.144311,Organic,Inactive,Desktop,15.93,v2.1.5,7,854.52
+715,Customer_715,61,Non-binary,Rural,58172.21,2024-12-02 00:07:28.144311,Referral,Inactive,Mobile,5.61,v1.2.0,3,602.69
+716,Customer_716,44,Male,Tier 2,39096.24,2024-10-16 00:07:28.144311,Referral,Active,Desktop,11.59,v3.7.4,8,1741.08
+717,Customer_717,64,Male,Metro,148792.63,2024-11-25 00:07:28.144311,Ad Campaign,Active,Desktop,10.98,v3.0.2,17,2683.91
+718,Customer_718,48,Male,Tier 2,52954.19,2024-11-16 00:07:28.144311,Organic,New,Desktop,13.86,v1.1.6,6,1391.37
+719,Customer_719,52,Female,Rural,142732.32,2024-10-25 00:07:28.144311,Social Media,Active,Mobile,15.13,v2.3.5,5,910.28
+720,Customer_720,64,Male,Tier 2,98740.9,2024-10-24 00:07:28.144311,Social Media,Active,Tablet,15.28,v3.2.1,14,3648.6
+721,Customer_721,68,Female,Rural,24332.02,2024-11-10 00:07:28.144311,Social Media,Active,Tablet,22.45,v3.7.2,10,838.1
+722,Customer_722,59,Non-binary,Metro,105988.22,2024-10-06 00:07:28.144311,Ad Campaign,New,Mobile,12.91,v2.1.1,3,418.38
+723,Customer_723,24,Female,Rural,120943.29,2024-12-18 00:07:28.144311,Organic,Active,Mobile,18.39,v2.1.3,3,441.47
+724,Customer_724,23,Female,Tier 1,79439.95,2024-12-08 00:07:28.144311,Social Media,Inactive,Desktop,17.35,v3.1.4,15,2892.05
+725,Customer_725,66,Male,Tier 2,124213.54,2024-11-10 00:07:28.144311,Ad Campaign,Active,Desktop,22.65,v1.4.3,2,388.51
+726,Customer_726,68,Non-binary,Tier 2,118669.45,2024-11-11 00:07:28.144311,Organic,Inactive,Mobile,25.28,v3.7.5,10,1843.73
+727,Customer_727,18,Non-binary,Metro,99173.76,2024-10-13 00:07:28.144311,Organic,Active,Mobile,7.84,v2.0.6,11,3222.86
+728,Customer_728,37,Non-binary,Tier 2,60834.28,2024-10-19 00:07:28.144311,Organic,Active,Mobile,24.31,v1.3.3,4,524.14
+729,Customer_729,32,Female,Metro,35845.6,2024-10-09 00:07:28.144311,Organic,Inactive,Desktop,16.88,v3.5.8,8,727.84
+730,Customer_730,66,Male,Tier 1,148946.07,2024-10-12 00:07:28.144311,Referral,Active,Tablet,28.76,v3.7.5,2,513.23
+731,Customer_731,33,Female,Tier 2,128104.61,2024-11-12 00:07:28.144311,Ad Campaign,Active,Mobile,11.53,v3.3.4,18,4927.95
+732,Customer_732,44,Female,Tier 2,53697.99,2024-12-22 00:07:28.144311,Referral,New,Desktop,8.84,v1.8.4,8,1863.41
+733,Customer_733,32,Female,Tier 2,100013.82,2024-11-28 00:07:28.144311,Social Media,Active,Tablet,13.08,v1.2.5,7,1817.59
+734,Customer_734,58,Female,Tier 1,138728.96,2024-12-14 00:07:28.144311,Ad Campaign,Active,Tablet,11.83,v3.3.6,17,1294.04
+735,Customer_735,47,Female,Tier 1,64894.72,2024-12-08 00:07:28.144311,Ad Campaign,Active,Desktop,14.09,v1.1.7,1,259.85
+736,Customer_736,21,Male,Metro,71846.8,2024-10-14 00:07:28.144311,Ad Campaign,Inactive,Tablet,16.41,v1.6.2,19,3748.49
+737,Customer_737,58,Non-binary,Tier 1,47763.75,2024-10-02 00:07:28.144311,Organic,Active,Desktop,25.15,v2.2.8,13,3175.91
+738,Customer_738,41,Non-binary,Tier 1,65041.01,2024-12-13 00:07:28.144311,Referral,Inactive,Tablet,6.02,v3.2.0,4,907.52
+739,Customer_739,52,Male,Rural,112428.43,2024-10-03 00:07:28.144311,Organic,Active,Desktop,22.33,v1.0.2,5,479.0
+740,Customer_740,22,Male,Tier 1,91737.74,2024-12-02 00:07:28.144311,Social Media,Active,Tablet,14.92,v1.4.7,8,419.69
+741,Customer_741,24,Male,Rural,78386.04,2024-09-29 00:07:28.144311,Ad Campaign,Active,Mobile,23.32,v1.6.8,1,232.6
+742,Customer_742,27,Non-binary,Tier 1,83187.48,2024-09-29 00:07:28.144311,Referral,Active,Mobile,23.47,v1.3.2,0,0.0
+743,Customer_743,23,Female,Rural,134951.87,2024-12-03 00:07:28.144311,Organic,Active,Tablet,19.03,v2.7.2,19,2893.82
+744,Customer_744,18,Non-binary,Tier 1,148474.07,2024-12-11 00:07:28.144311,Organic,New,Desktop,29.06,v1.3.1,17,2973.38
+745,Customer_745,33,Female,Tier 2,22347.83,2024-12-03 00:07:28.144311,Social Media,Active,Desktop,12.82,v3.5.8,15,1837.45
+746,Customer_746,38,Non-binary,Tier 2,105142.34,2024-11-30 00:07:28.144311,Referral,New,Mobile,11.56,v1.3.2,1,244.59
+747,Customer_747,19,Female,Metro,81788.62,2024-11-03 00:07:28.144311,Social Media,Active,Desktop,14.91,v1.5.2,9,1291.36
+748,Customer_748,66,Male,Tier 1,34876.96,2024-10-30 00:07:28.144311,Referral,Active,Mobile,11.04,v2.3.7,15,1145.99
+749,Customer_749,68,Non-binary,Tier 1,133090.84,2024-10-16 00:07:28.144311,Referral,Active,Desktop,29.07,v2.8.0,8,2275.48
+750,Customer_750,47,Non-binary,Tier 1,26794.93,2024-12-06 00:07:28.144311,Ad Campaign,Active,Desktop,20.48,v2.7.2,5,1477.99
+751,Customer_751,50,Non-binary,Tier 2,25242.28,2024-11-30 00:07:28.144311,Referral,New,Mobile,5.05,v1.4.7,11,960.49
+752,Customer_752,24,Male,Metro,63526.38,2024-12-15 00:07:28.144311,Referral,Inactive,Mobile,22.38,v2.0.5,15,3591.51
+753,Customer_753,30,Male,Rural,95035.97,2024-12-14 00:07:28.144311,Social Media,Active,Desktop,28.27,v1.4.0,0,0.0
+754,Customer_754,51,Non-binary,Tier 1,125407.65,2024-12-18 00:07:28.144311,Social Media,Inactive,Mobile,18.95,v1.3.2,14,1732.88
+755,Customer_755,59,Male,Tier 1,124559.61,2024-11-21 00:07:28.144311,Referral,Active,Desktop,13.75,v3.8.5,5,255.63
+756,Customer_756,41,Male,Tier 2,123603.18,2024-11-23 00:07:28.144311,Organic,Active,Mobile,7.54,v2.1.2,16,2112.28
+757,Customer_757,41,Female,Metro,78924.02,2024-12-10 00:07:28.144311,Organic,Active,Mobile,19.77,v3.2.3,17,1718.01
+758,Customer_758,53,Male,Rural,131781.08,2024-11-15 00:07:28.144311,Organic,Inactive,Mobile,13.19,v1.7.2,9,1928.52
+759,Customer_759,37,Male,Rural,126036.52,2024-11-01 00:07:28.144311,Ad Campaign,Active,Desktop,8.34,v1.8.3,15,1363.3
+760,Customer_760,48,Male,Metro,99143.73,2024-11-21 00:07:28.144311,Organic,Active,Desktop,26.84,v3.5.1,18,4712.84
+761,Customer_761,29,Male,Tier 1,107396.25,2024-12-13 00:07:28.144311,Referral,Active,Tablet,24.61,v1.4.2,7,1571.98
+762,Customer_762,67,Male,Metro,122475.78,2024-12-16 00:07:28.144311,Ad Campaign,Active,Desktop,8.12,v1.5.5,18,2419.87
+763,Customer_763,48,Non-binary,Tier 2,100139.91,2024-10-04 00:07:28.144311,Ad Campaign,New,Tablet,28.64,v3.2.6,11,712.86
+764,Customer_764,69,Non-binary,Metro,110508.79,2024-10-14 00:07:28.144311,Organic,Active,Tablet,10.27,v1.7.4,3,827.71
+765,Customer_765,64,Female,Tier 1,100527.86,2024-12-11 00:07:28.144311,Organic,Active,Tablet,14.96,v3.0.1,10,909.06
+766,Customer_766,62,Non-binary,Rural,80808.57,2024-11-22 00:07:28.144311,Referral,New,Tablet,5.82,v3.1.4,13,3777.48
+767,Customer_767,69,Male,Tier 1,91292.12,2024-12-13 00:07:28.144311,Social Media,Active,Desktop,27.3,v1.5.8,15,1625.24
+768,Customer_768,23,Male,Metro,111508.75,2024-11-17 00:07:28.144311,Organic,Active,Tablet,16.22,v3.0.3,14,2583.48
+769,Customer_769,67,Female,Tier 1,42198.84,2024-11-28 00:07:28.144311,Social Media,Active,Desktop,17.87,v1.7.2,11,2831.59
+770,Customer_770,48,Female,Rural,111402.21,2024-10-09 00:07:28.144311,Organic,Active,Tablet,20.15,v2.7.2,18,4120.48
+771,Customer_771,26,Non-binary,Rural,96664.77,2024-12-01 00:07:28.144311,Social Media,Inactive,Mobile,12.93,v3.6.3,5,254.65
+772,Customer_772,35,Non-binary,Rural,69394.79,2024-12-24 00:07:28.144311,Social Media,Inactive,Desktop,24.31,v3.3.7,10,2401.76
+773,Customer_773,20,Male,Rural,52973.52,2024-11-29 00:07:28.144311,Referral,Active,Tablet,12.73,v3.4.0,12,1197.25
+774,Customer_774,28,Male,Rural,54611.94,2024-11-23 00:07:28.144311,Social Media,Active,Mobile,16.25,v3.3.4,12,2562.07
+775,Customer_775,42,Female,Metro,96399.72,2024-11-09 00:07:28.144311,Ad Campaign,Inactive,Tablet,11.05,v2.6.7,16,3579.28
+776,Customer_776,30,Male,Rural,38409.48,2024-10-29 00:07:28.144311,Ad Campaign,Active,Mobile,10.09,v1.6.7,16,2930.74
+777,Customer_777,31,Non-binary,Metro,52846.19,2024-11-28 00:07:28.144311,Referral,Active,Tablet,7.39,v2.3.7,0,0.0
+778,Customer_778,56,Non-binary,Metro,20392.71,2024-10-09 00:07:28.144311,Social Media,Inactive,Desktop,12.91,v3.4.6,7,1249.28
+779,Customer_779,31,Female,Rural,31235.2,2024-10-25 00:07:28.144311,Social Media,Inactive,Mobile,28.46,v3.0.3,1,298.57
+780,Customer_780,38,Male,Tier 2,22895.42,2024-12-22 00:07:28.144311,Social Media,Active,Desktop,12.02,v2.5.5,16,3184.73
+781,Customer_781,39,Male,Metro,44118.38,2024-11-05 00:07:28.144311,Referral,Active,Tablet,6.21,v1.8.4,17,1969.91
+782,Customer_782,32,Male,Metro,78802.05,2024-10-24 00:07:28.144311,Referral,Active,Tablet,7.69,v2.7.8,3,443.76
+783,Customer_783,38,Male,Tier 2,32338.03,2024-11-20 00:07:28.144311,Organic,Active,Mobile,18.53,v3.3.4,19,4437.02
+784,Customer_784,50,Male,Tier 1,124553.95,2024-12-18 00:07:28.144311,Social Media,Active,Desktop,14.34,v1.0.4,14,2119.67
+785,Customer_785,61,Non-binary,Tier 1,97181.75,2024-11-28 00:07:28.144311,Referral,Inactive,Mobile,15.48,v1.4.8,19,3255.08
+786,Customer_786,24,Male,Tier 1,83416.97,2024-12-20 00:07:28.144311,Referral,Active,Mobile,14.69,v3.1.2,17,1146.91
+787,Customer_787,60,Male,Tier 1,105712.66,2024-12-16 00:07:28.144311,Social Media,Active,Tablet,24.21,v1.3.0,16,2681.3
+788,Customer_788,40,Female,Metro,123680.52,2024-12-10 00:07:28.144311,Referral,Active,Desktop,23.42,v3.4.0,8,1133.61
+789,Customer_789,18,Non-binary,Tier 2,74387.19,2024-11-24 00:07:28.144311,Ad Campaign,Inactive,Tablet,26.98,v1.5.8,9,2424.35
+790,Customer_790,64,Non-binary,Metro,75060.28,2024-12-23 00:07:28.144311,Ad Campaign,Inactive,Tablet,28.76,v2.4.0,10,1955.89
+791,Customer_791,20,Non-binary,Tier 1,22652.21,2024-11-21 00:07:28.144311,Social Media,Active,Tablet,12.09,v3.5.5,0,0.0
+792,Customer_792,62,Female,Tier 2,125167.11,2024-10-19 00:07:28.144311,Referral,Active,Desktop,27.18,v2.7.4,3,348.78
+793,Customer_793,66,Female,Rural,77215.7,2024-10-15 00:07:28.144311,Organic,Active,Mobile,9.92,v3.1.1,3,552.88
+794,Customer_794,43,Female,Metro,83067.15,2024-10-03 00:07:28.144311,Ad Campaign,New,Mobile,17.45,v2.2.5,14,2988.18
+795,Customer_795,35,Female,Tier 2,143132.18,2024-12-15 00:07:28.144311,Referral,Active,Tablet,5.86,v3.2.0,18,1547.26
+796,Customer_796,37,Male,Metro,148337.88,2024-11-07 00:07:28.144311,Referral,Active,Tablet,19.64,v2.5.6,4,806.2
+797,Customer_797,50,Female,Rural,122791.38,2024-12-23 00:07:28.144311,Referral,Active,Tablet,20.14,v3.6.7,19,2924.48
+798,Customer_798,34,Male,Tier 1,101575.8,2024-10-29 00:07:28.144311,Organic,Active,Mobile,27.65,v3.5.7,4,1005.97
+799,Customer_799,51,Female,Rural,75456.95,2024-12-06 00:07:28.144311,Social Media,New,Mobile,11.46,v1.3.0,1,105.02
+800,Customer_800,50,Female,Rural,128184.85,2024-11-04 00:07:28.144311,Organic,Active,Tablet,12.1,v1.7.7,19,2782.83
+801,Customer_801,24,Female,Rural,78239.41,2024-11-12 00:07:28.144311,Social Media,Active,Desktop,19.98,v3.1.2,11,1938.03
+802,Customer_802,69,Non-binary,Metro,36064.42,2024-11-08 00:07:28.144311,Referral,Active,Mobile,9.92,v1.5.2,3,438.79
+803,Customer_803,42,Female,Rural,115764.74,2024-12-04 00:07:28.144311,Ad Campaign,Active,Mobile,11.22,v3.5.4,0,0.0
+804,Customer_804,38,Female,Metro,42119.84,2024-10-01 00:07:28.144311,Referral,Active,Tablet,5.93,v3.5.4,15,4401.35
+805,Customer_805,26,Female,Rural,120306.55,2024-10-23 00:07:28.144311,Ad Campaign,Inactive,Tablet,9.09,v1.2.7,9,2097.54
+806,Customer_806,52,Female,Metro,145400.97,2024-11-23 00:07:28.144311,Ad Campaign,Active,Tablet,17.51,v2.0.2,11,1260.23
+807,Customer_807,61,Non-binary,Tier 1,91780.91,2024-10-14 00:07:28.144311,Social Media,Active,Tablet,24.2,v2.6.6,13,1775.36
+808,Customer_808,50,Male,Rural,31237.95,2024-11-19 00:07:28.144311,Referral,Active,Desktop,10.92,v2.5.7,7,1580.16
+809,Customer_809,55,Female,Rural,104538.61,2024-11-10 00:07:28.144311,Organic,Active,Mobile,19.59,v3.7.5,17,4860.15
+810,Customer_810,56,Non-binary,Metro,95949.22,2024-11-25 00:07:28.144311,Organic,New,Mobile,26.34,v2.8.1,3,699.34
+811,Customer_811,36,Female,Tier 1,148991.45,2024-11-23 00:07:28.144311,Organic,New,Mobile,16.76,v3.0.8,11,1762.1
+812,Customer_812,25,Non-binary,Metro,28383.79,2024-11-09 00:07:28.144311,Organic,Active,Desktop,25.43,v2.5.4,7,1339.73
+813,Customer_813,46,Non-binary,Tier 1,139222.81,2024-10-09 00:07:28.144311,Social Media,Active,Mobile,27.92,v2.0.8,0,0.0
+814,Customer_814,32,Female,Rural,114233.21,2024-09-27 00:07:28.144311,Referral,Active,Tablet,25.79,v3.7.6,19,1615.21
+815,Customer_815,58,Female,Metro,29762.17,2024-10-31 00:07:28.144311,Social Media,Active,Mobile,13.46,v2.2.7,11,2072.75
+816,Customer_816,43,Female,Tier 1,45442.01,2024-10-30 00:07:28.144311,Ad Campaign,Inactive,Tablet,17.07,v1.0.2,11,1999.45
+817,Customer_817,48,Non-binary,Metro,104889.06,2024-11-17 00:07:28.144311,Referral,Active,Desktop,19.81,v1.6.3,6,556.99
+818,Customer_818,55,Female,Tier 1,123603.21,2024-12-17 00:07:28.144311,Organic,Active,Mobile,12.83,v3.3.8,2,257.19
+819,Customer_819,40,Male,Tier 2,47965.68,2024-12-20 00:07:28.144311,Referral,Inactive,Tablet,19.42,v2.6.7,1,191.2
+820,Customer_820,54,Male,Rural,23458.33,2024-09-30 00:07:28.144311,Organic,Active,Tablet,26.33,v3.8.4,16,3167.66
+821,Customer_821,65,Female,Tier 1,28677.53,2024-11-06 00:07:28.144311,Social Media,Active,Mobile,14.85,v1.3.0,8,1787.69
+822,Customer_822,39,Male,Tier 2,68428.57,2024-11-10 00:07:28.144311,Referral,Active,Tablet,18.84,v3.2.1,16,2634.63
+823,Customer_823,46,Non-binary,Rural,64250.03,2024-09-29 00:07:28.144311,Social Media,Active,Mobile,9.13,v1.7.3,4,241.23
+824,Customer_824,29,Male,Metro,76686.28,2024-11-21 00:07:28.144311,Ad Campaign,Active,Mobile,15.06,v1.4.6,0,0.0
+825,Customer_825,31,Male,Metro,105727.94,2024-12-24 00:07:28.144311,Organic,New,Tablet,7.59,v1.2.6,9,1063.25
+826,Customer_826,68,Non-binary,Rural,59724.94,2024-11-13 00:07:28.144311,Referral,Active,Tablet,14.2,v1.6.1,19,4323.5
+827,Customer_827,36,Male,Metro,79055.19,2024-11-05 00:07:28.144311,Social Media,Active,Tablet,23.39,v2.0.7,17,1941.53
+828,Customer_828,61,Male,Tier 2,83677.65,2024-10-01 00:07:28.144311,Ad Campaign,Active,Tablet,17.92,v2.6.1,13,3890.8
+829,Customer_829,32,Male,Metro,131686.95,2024-12-02 00:07:28.144311,Ad Campaign,Active,Desktop,28.06,v1.7.7,6,1537.02
+830,Customer_830,30,Non-binary,Tier 2,37135.35,2024-11-21 00:07:28.144311,Organic,Active,Mobile,7.67,v3.7.6,1,246.05
+831,Customer_831,40,Non-binary,Tier 2,141347.33,2024-12-12 00:07:28.144311,Referral,Active,Mobile,13.27,v1.4.8,12,3162.05
+832,Customer_832,49,Non-binary,Metro,69255.32,2024-12-07 00:07:28.144311,Organic,Active,Desktop,8.0,v1.6.5,3,728.68
+833,Customer_833,23,Non-binary,Tier 2,36215.69,2024-12-02 00:07:28.144311,Ad Campaign,Active,Mobile,24.99,v2.4.8,12,1396.83
+834,Customer_834,67,Male,Rural,90203.79,2024-10-19 00:07:28.144311,Social Media,Active,Tablet,15.05,v3.7.6,11,1239.1
+835,Customer_835,47,Female,Metro,134432.24,2024-11-23 00:07:28.144311,Organic,Inactive,Desktop,15.39,v3.7.6,19,2137.49
+836,Customer_836,21,Male,Rural,87706.03,2024-11-03 00:07:28.144311,Ad Campaign,Active,Mobile,24.9,v3.1.1,7,1058.59
+837,Customer_837,59,Male,Tier 1,86490.78,2024-12-01 00:07:28.144311,Ad Campaign,Active,Desktop,17.7,v1.1.1,6,1115.2
+838,Customer_838,61,Female,Tier 1,126380.98,2024-10-18 00:07:28.144311,Organic,Active,Mobile,28.32,v1.8.0,4,756.93
+839,Customer_839,23,Female,Tier 1,119992.08,2024-11-15 00:07:28.144311,Organic,Inactive,Mobile,11.92,v3.7.0,12,1456.88
+840,Customer_840,24,Female,Metro,23938.12,2024-10-24 00:07:28.144311,Referral,Active,Desktop,18.65,v3.2.7,12,617.31
+841,Customer_841,18,Male,Tier 2,41749.18,2024-11-29 00:07:28.144311,Organic,Active,Mobile,23.02,v3.4.8,12,3552.72
+842,Customer_842,64,Non-binary,Rural,129613.13,2024-12-19 00:07:28.144311,Referral,Inactive,Tablet,29.0,v3.0.6,3,599.47
+843,Customer_843,65,Female,Tier 2,72567.38,2024-10-19 00:07:28.144311,Ad Campaign,Inactive,Desktop,19.58,v1.8.0,12,611.3
+844,Customer_844,68,Non-binary,Rural,61359.78,2024-11-20 00:07:28.144311,Referral,Active,Tablet,8.19,v2.2.3,0,0.0
+845,Customer_845,53,Female,Tier 2,140557.63,2024-12-13 00:07:28.144311,Referral,Inactive,Desktop,23.42,v2.2.2,19,5357.69
+846,Customer_846,65,Non-binary,Tier 1,123677.26,2024-11-15 00:07:28.144311,Ad Campaign,Active,Desktop,22.25,v2.5.2,14,3163.78
+847,Customer_847,38,Female,Tier 1,78236.77,2024-11-18 00:07:28.144311,Organic,Active,Desktop,6.06,v3.2.3,5,461.32
+848,Customer_848,42,Female,Rural,78987.99,2024-12-10 00:07:28.144311,Referral,Active,Desktop,9.47,v1.2.4,4,346.02
+849,Customer_849,31,Female,Tier 1,108070.68,2024-12-18 00:07:28.144311,Referral,Active,Tablet,22.99,v1.3.3,15,2779.46
+850,Customer_850,64,Female,Rural,74336.04,2024-11-17 00:07:28.144311,Organic,Active,Mobile,28.37,v1.3.3,11,1835.23
+851,Customer_851,53,Female,Metro,145974.89,2024-10-04 00:07:28.144311,Organic,Active,Desktop,21.71,v1.5.5,2,571.71
+852,Customer_852,53,Male,Rural,122855.63,2024-12-04 00:07:28.144311,Referral,Active,Mobile,9.49,v2.1.5,16,2388.97
+853,Customer_853,21,Male,Tier 1,112660.33,2024-12-24 00:07:28.144311,Organic,Inactive,Mobile,17.33,v3.0.7,12,2776.17
+854,Customer_854,35,Non-binary,Tier 1,84853.47,2024-12-20 00:07:28.144311,Ad Campaign,Active,Tablet,28.56,v2.2.6,17,2285.27
+855,Customer_855,57,Non-binary,Tier 2,69024.56,2024-11-22 00:07:28.144311,Referral,Active,Mobile,14.23,v1.4.5,1,223.82
+856,Customer_856,60,Male,Tier 2,129645.61,2024-12-22 00:07:28.144311,Ad Campaign,Active,Desktop,23.81,v1.8.4,15,2274.85
+857,Customer_857,28,Female,Rural,133934.72,2024-12-24 00:07:28.144311,Ad Campaign,New,Tablet,17.83,v3.5.7,16,1554.48
+858,Customer_858,56,Non-binary,Metro,74502.4,2024-12-01 00:07:28.144311,Social Media,Active,Desktop,25.07,v2.4.6,7,1860.04
+859,Customer_859,57,Male,Rural,29822.08,2024-11-29 00:07:28.144311,Social Media,Active,Tablet,28.07,v1.3.0,18,2252.95
+860,Customer_860,56,Male,Tier 2,89533.46,2024-12-18 00:07:28.144311,Social Media,Inactive,Mobile,16.55,v3.4.4,4,919.69
+861,Customer_861,44,Female,Tier 2,21054.07,2024-11-28 00:07:28.144311,Ad Campaign,Active,Desktop,5.56,v2.2.2,16,2048.51
+862,Customer_862,66,Female,Tier 1,50195.54,2024-12-04 00:07:28.144311,Social Media,Active,Tablet,7.17,v2.8.3,16,1037.24
+863,Customer_863,24,Male,Rural,29213.32,2024-12-22 00:07:28.144311,Ad Campaign,Active,Tablet,25.85,v3.4.7,6,1224.14
+864,Customer_864,49,Male,Metro,143380.35,2024-10-01 00:07:28.144311,Social Media,Active,Tablet,6.49,v1.1.6,10,2252.85
+865,Customer_865,28,Female,Metro,54199.06,2024-09-30 00:07:28.144311,Organic,Active,Tablet,8.72,v2.5.1,13,875.9
+866,Customer_866,37,Male,Tier 2,98171.19,2024-11-23 00:07:28.144311,Ad Campaign,Active,Tablet,12.97,v2.5.7,9,1305.44
+867,Customer_867,38,Non-binary,Metro,148722.85,2024-09-26 00:07:28.144311,Organic,Active,Tablet,25.33,v1.2.3,4,712.17
+868,Customer_868,40,Female,Metro,109686.48,2024-10-24 00:07:28.144311,Organic,Active,Tablet,19.85,v1.6.2,0,0.0
+869,Customer_869,62,Female,Tier 2,107229.41,2024-12-15 00:07:28.144311,Organic,Inactive,Desktop,7.66,v3.0.6,19,1423.7
+870,Customer_870,57,Non-binary,Rural,25641.63,2024-10-17 00:07:28.144311,Organic,Active,Desktop,19.3,v1.6.5,1,68.53
+871,Customer_871,38,Male,Tier 2,115682.26,2024-12-13 00:07:28.144311,Organic,Active,Tablet,9.49,v2.1.0,5,984.39
+872,Customer_872,61,Non-binary,Tier 2,89200.33,2024-10-04 00:07:28.144311,Referral,Inactive,Mobile,9.73,v2.1.0,19,2481.11
+873,Customer_873,61,Non-binary,Tier 2,128190.93,2024-11-02 00:07:28.144311,Ad Campaign,Active,Tablet,29.72,v1.1.6,19,2674.88
+874,Customer_874,52,Non-binary,Rural,22721.16,2024-10-11 00:07:28.144311,Organic,Active,Mobile,5.84,v3.2.3,6,821.95
+875,Customer_875,61,Female,Tier 1,25731.99,2024-12-20 00:07:28.144311,Referral,Active,Tablet,16.76,v3.0.2,17,2167.42
+876,Customer_876,19,Male,Metro,103529.14,2024-10-02 00:07:28.144311,Ad Campaign,Active,Tablet,19.67,v3.3.7,16,3562.8
+877,Customer_877,38,Female,Tier 1,112287.66,2024-09-26 00:07:28.144311,Organic,Active,Mobile,25.62,v2.0.6,1,101.61
+878,Customer_878,61,Female,Tier 1,112692.19,2024-11-08 00:07:28.144311,Organic,Active,Desktop,10.53,v1.5.2,8,428.4
+879,Customer_879,30,Female,Tier 1,124546.38,2024-09-28 00:07:28.144311,Referral,Active,Tablet,24.18,v1.1.7,5,1173.74
+880,Customer_880,34,Female,Metro,39928.5,2024-11-25 00:07:28.144311,Ad Campaign,New,Tablet,11.05,v1.8.3,6,1481.91
+881,Customer_881,51,Non-binary,Metro,66577.63,2024-10-07 00:07:28.144311,Ad Campaign,New,Tablet,8.81,v1.7.4,10,2929.81
+882,Customer_882,51,Male,Metro,109426.82,2024-11-17 00:07:28.144311,Ad Campaign,Active,Desktop,15.58,v2.2.8,12,1761.2
+883,Customer_883,49,Non-binary,Tier 2,97396.24,2024-09-30 00:07:28.144311,Organic,New,Mobile,28.91,v1.1.1,10,2783.53
+884,Customer_884,27,Non-binary,Metro,141725.83,2024-10-09 00:07:28.144311,Ad Campaign,Active,Tablet,24.79,v1.7.1,11,1946.59
+885,Customer_885,19,Male,Tier 2,121711.46,2024-11-26 00:07:28.144311,Referral,Active,Mobile,12.18,v2.4.7,14,4007.32
+886,Customer_886,56,Female,Tier 2,126243.7,2024-12-04 00:07:28.144311,Organic,Active,Desktop,13.98,v2.0.0,18,2948.93
+887,Customer_887,62,Non-binary,Metro,104439.22,2024-09-30 00:07:28.144311,Organic,Active,Tablet,28.7,v2.6.3,17,2234.26
+888,Customer_888,30,Male,Rural,60693.3,2024-12-05 00:07:28.144311,Social Media,Active,Tablet,16.56,v2.2.0,16,1237.6
+889,Customer_889,20,Male,Tier 2,130051.6,2024-10-01 00:07:28.144311,Ad Campaign,Active,Desktop,18.3,v3.0.6,19,4349.27
+890,Customer_890,28,Non-binary,Metro,85281.06,2024-10-06 00:07:28.144311,Ad Campaign,Inactive,Tablet,13.81,v1.1.5,8,1695.34
+891,Customer_891,57,Female,Metro,82269.21,2024-12-19 00:07:28.144311,Organic,Active,Desktop,9.24,v3.1.4,7,591.98
+892,Customer_892,41,Male,Tier 1,44201.45,2024-10-26 00:07:28.144311,Social Media,Active,Desktop,26.05,v2.4.5,18,3620.76
+893,Customer_893,40,Non-binary,Metro,100855.14,2024-12-22 00:07:28.144311,Ad Campaign,Active,Tablet,5.82,v3.8.4,15,3222.67
+894,Customer_894,31,Non-binary,Tier 2,24684.86,2024-10-15 00:07:28.144311,Social Media,Active,Tablet,17.3,v3.3.5,11,1230.64
+895,Customer_895,18,Male,Rural,103203.95,2024-11-02 00:07:28.144311,Organic,New,Mobile,29.27,v1.1.7,5,1194.29
+896,Customer_896,56,Non-binary,Rural,119583.37,2024-11-21 00:07:28.144311,Organic,Active,Desktop,18.33,v2.7.6,3,423.93
+897,Customer_897,61,Male,Tier 1,76114.61,2024-11-05 00:07:28.144311,Social Media,Active,Mobile,10.28,v1.0.8,8,1926.0
+898,Customer_898,49,Female,Rural,54391.02,2024-11-25 00:07:28.144311,Social Media,Active,Mobile,28.35,v1.2.3,0,0.0
+899,Customer_899,47,Female,Tier 1,59695.92,2024-11-30 00:07:28.144311,Ad Campaign,Active,Desktop,20.63,v2.8.3,13,754.2
+900,Customer_900,49,Non-binary,Rural,144423.92,2024-09-29 00:07:28.144311,Referral,Active,Desktop,17.54,v2.3.4,15,4479.19
+901,Customer_901,46,Non-binary,Tier 1,94733.03,2024-12-09 00:07:28.144311,Organic,Active,Desktop,27.39,v1.4.5,3,161.21
+902,Customer_902,18,Non-binary,Metro,114860.95,2024-11-23 00:07:28.144311,Social Media,Inactive,Tablet,15.22,v2.4.0,16,1138.91
+903,Customer_903,68,Male,Tier 1,25649.31,2024-10-13 00:07:28.144311,Ad Campaign,Active,Desktop,25.96,v3.5.4,13,2220.76
+904,Customer_904,62,Non-binary,Tier 1,72041.79,2024-11-22 00:07:28.144311,Social Media,Inactive,Tablet,22.32,v1.4.4,7,410.38
+905,Customer_905,30,Non-binary,Rural,46685.35,2024-10-29 00:07:28.144311,Referral,Active,Tablet,19.98,v1.6.8,10,2301.66
+906,Customer_906,19,Female,Metro,126895.71,2024-09-30 00:07:28.144311,Organic,Active,Desktop,21.83,v2.3.6,15,1859.72
+907,Customer_907,29,Female,Rural,125542.02,2024-11-27 00:07:28.144311,Ad Campaign,Active,Mobile,22.94,v1.8.3,8,1146.01
+908,Customer_908,68,Male,Tier 1,139255.36,2024-10-19 00:07:28.144311,Ad Campaign,Inactive,Tablet,5.76,v3.0.5,7,1411.22
+909,Customer_909,51,Female,Tier 1,143218.8,2024-12-10 00:07:28.144311,Ad Campaign,Active,Mobile,26.75,v1.8.2,15,2418.82
+910,Customer_910,64,Male,Metro,120932.43,2024-11-19 00:07:28.144311,Social Media,Active,Desktop,10.69,v3.6.8,12,848.21
+911,Customer_911,65,Male,Tier 1,142016.13,2024-11-23 00:07:28.144311,Social Media,Inactive,Mobile,12.23,v3.7.4,3,352.35
+912,Customer_912,45,Female,Tier 1,93989.63,2024-11-29 00:07:28.144311,Referral,Active,Tablet,9.16,v3.6.4,8,868.06
+913,Customer_913,62,Female,Metro,120091.35,2024-10-12 00:07:28.144311,Ad Campaign,New,Mobile,22.89,v3.1.4,17,1133.17
+914,Customer_914,60,Non-binary,Tier 1,141223.93,2024-11-18 00:07:28.144311,Referral,Active,Desktop,14.74,v2.6.2,3,584.62
+915,Customer_915,56,Female,Tier 2,143911.73,2024-11-07 00:07:28.144311,Referral,Active,Tablet,21.89,v2.6.8,2,262.57
+916,Customer_916,59,Non-binary,Metro,137794.18,2024-12-08 00:07:28.144311,Organic,Active,Mobile,28.67,v1.7.6,3,284.92
+917,Customer_917,65,Female,Tier 2,81961.14,2024-11-24 00:07:28.144311,Ad Campaign,New,Mobile,14.21,v1.5.3,16,4511.24
+918,Customer_918,51,Non-binary,Tier 2,21830.36,2024-10-30 00:07:28.144311,Ad Campaign,Active,Tablet,11.51,v2.7.6,7,1385.3
+919,Customer_919,51,Non-binary,Tier 2,111304.0,2024-12-12 00:07:28.144311,Referral,Active,Desktop,21.81,v1.0.1,12,3408.44
+920,Customer_920,43,Non-binary,Tier 2,60455.17,2024-10-02 00:07:28.144311,Ad Campaign,Inactive,Tablet,28.05,v1.2.7,10,2048.38
+921,Customer_921,25,Male,Tier 2,23308.13,2024-11-04 00:07:28.144311,Social Media,Inactive,Mobile,16.51,v1.6.4,19,3443.44
+922,Customer_922,51,Female,Metro,44404.65,2024-11-01 00:07:28.144311,Ad Campaign,Inactive,Mobile,11.45,v3.4.1,7,1579.88
+923,Customer_923,62,Male,Rural,108557.2,2024-12-12 00:07:28.144311,Social Media,Active,Desktop,25.46,v1.4.5,5,629.65
+924,Customer_924,39,Non-binary,Tier 2,88006.91,2024-11-21 00:07:28.144311,Referral,Active,Desktop,29.46,v2.8.7,14,3384.25
+925,Customer_925,31,Female,Tier 1,100345.68,2024-12-05 00:07:28.144311,Referral,Active,Desktop,9.04,v1.3.0,9,1047.37
+926,Customer_926,66,Male,Rural,41858.34,2024-12-02 00:07:28.144311,Ad Campaign,Active,Desktop,13.44,v2.3.5,14,1614.2
+927,Customer_927,58,Non-binary,Tier 2,102330.58,2024-11-09 00:07:28.144311,Organic,Active,Tablet,22.61,v3.8.1,6,1303.43
+928,Customer_928,23,Non-binary,Rural,144555.96,2024-11-28 00:07:28.144311,Ad Campaign,Active,Desktop,21.09,v3.7.1,13,700.58
+929,Customer_929,58,Non-binary,Tier 1,50203.62,2024-11-14 00:07:28.144311,Referral,Active,Mobile,7.98,v2.7.7,6,347.79
+930,Customer_930,25,Non-binary,Metro,71686.94,2024-12-05 00:07:28.144311,Ad Campaign,Inactive,Tablet,17.98,v1.3.3,17,1604.08
+931,Customer_931,55,Male,Rural,49785.16,2024-12-09 00:07:28.144311,Referral,Inactive,Mobile,16.38,v1.6.1,11,1681.8
+932,Customer_932,39,Non-binary,Rural,36329.65,2024-11-03 00:07:28.144311,Referral,Active,Tablet,16.55,v3.8.8,12,1327.26
+933,Customer_933,32,Non-binary,Metro,90477.88,2024-10-15 00:07:28.144311,Ad Campaign,Active,Tablet,23.19,v3.6.0,6,1636.58
+934,Customer_934,56,Non-binary,Tier 2,32551.56,2024-10-22 00:07:28.144311,Referral,Active,Mobile,20.76,v1.3.1,7,500.06
+935,Customer_935,38,Non-binary,Rural,113266.48,2024-10-01 00:07:28.144311,Referral,Active,Desktop,22.91,v3.2.7,19,4992.78
+936,Customer_936,65,Male,Rural,46673.77,2024-12-14 00:07:28.144311,Social Media,Active,Mobile,20.73,v3.0.5,14,1115.29
+937,Customer_937,19,Female,Metro,146943.7,2024-11-26 00:07:28.144311,Ad Campaign,Active,Mobile,22.63,v3.6.2,4,1165.03
+938,Customer_938,62,Female,Metro,90929.1,2024-11-05 00:07:28.144311,Organic,Active,Mobile,13.27,v3.2.5,12,851.54
+939,Customer_939,35,Male,Metro,55694.4,2024-11-11 00:07:28.144311,Ad Campaign,Active,Desktop,12.95,v2.8.8,19,4512.79
+940,Customer_940,44,Male,Metro,22587.19,2024-10-01 00:07:28.144311,Organic,Inactive,Tablet,28.06,v1.1.6,13,3488.5
+941,Customer_941,60,Male,Rural,59552.02,2024-12-09 00:07:28.144311,Organic,Active,Desktop,25.58,v3.4.8,11,1791.18
+942,Customer_942,45,Non-binary,Tier 1,121282.21,2024-10-28 00:07:28.144311,Organic,Active,Tablet,19.61,v1.4.0,15,2285.69
+943,Customer_943,32,Non-binary,Metro,117347.57,2024-11-30 00:07:28.144311,Organic,Inactive,Mobile,9.1,v2.5.6,10,2143.92
+944,Customer_944,28,Male,Tier 2,108034.79,2024-10-20 00:07:28.144311,Organic,Inactive,Mobile,13.98,v2.5.6,14,3889.32
+945,Customer_945,41,Non-binary,Tier 2,67838.06,2024-10-20 00:07:28.144311,Organic,Active,Tablet,6.16,v3.1.8,16,4613.74
+946,Customer_946,66,Male,Rural,142240.53,2024-12-01 00:07:28.144311,Ad Campaign,Active,Mobile,22.64,v3.5.4,16,1815.19
+947,Customer_947,33,Male,Tier 1,45964.68,2024-09-26 00:07:28.144311,Ad Campaign,Inactive,Mobile,17.28,v1.1.7,1,59.48
+948,Customer_948,61,Non-binary,Metro,52507.38,2024-12-19 00:07:28.144311,Social Media,Active,Tablet,15.06,v2.8.8,3,828.81
+949,Customer_949,51,Female,Tier 1,21044.14,2024-11-24 00:07:28.144311,Ad Campaign,Active,Mobile,22.23,v3.7.8,2,411.31
+950,Customer_950,43,Female,Tier 1,102391.28,2024-11-25 00:07:28.144311,Social Media,New,Desktop,26.69,v1.5.8,13,1749.43
+951,Customer_951,33,Male,Rural,146178.01,2024-12-19 00:07:28.144311,Organic,Active,Desktop,19.79,v3.1.3,18,4395.87
+952,Customer_952,34,Non-binary,Rural,105561.12,2024-09-30 00:07:28.144311,Organic,Active,Desktop,9.85,v2.4.4,11,3006.4
+953,Customer_953,22,Non-binary,Metro,125214.57,2024-12-04 00:07:28.144311,Social Media,Inactive,Tablet,23.64,v1.8.7,7,1229.62
+954,Customer_954,49,Male,Tier 1,56232.78,2024-10-27 00:07:28.144311,Organic,Inactive,Desktop,25.44,v2.1.7,14,3727.48
+955,Customer_955,56,Male,Metro,29414.9,2024-10-18 00:07:28.144311,Social Media,Active,Mobile,22.44,v2.6.3,5,484.26
+956,Customer_956,55,Non-binary,Rural,116945.98,2024-11-02 00:07:28.144311,Organic,Active,Mobile,13.09,v3.6.1,3,778.3
+957,Customer_957,53,Non-binary,Metro,149917.44,2024-10-08 00:07:28.144311,Referral,Inactive,Tablet,14.08,v3.6.3,6,1534.13
+958,Customer_958,55,Non-binary,Rural,64674.15,2024-10-30 00:07:28.144311,Social Media,Active,Desktop,14.86,v2.8.8,17,3400.77
+959,Customer_959,68,Male,Tier 2,137377.13,2024-10-12 00:07:28.144311,Ad Campaign,Active,Tablet,14.26,v1.8.4,13,716.6
+960,Customer_960,25,Non-binary,Rural,41022.66,2024-10-31 00:07:28.144311,Social Media,Active,Mobile,7.58,v3.1.1,14,3641.94
+961,Customer_961,36,Female,Tier 2,80030.15,2024-09-26 00:07:28.144311,Organic,Active,Desktop,17.18,v1.2.0,18,2035.5
+962,Customer_962,60,Male,Tier 1,98848.36,2024-10-28 00:07:28.144311,Social Media,Inactive,Tablet,18.34,v2.2.3,16,1741.89
+963,Customer_963,54,Non-binary,Tier 1,59494.93,2024-11-10 00:07:28.144311,Ad Campaign,Active,Desktop,24.74,v3.5.8,8,1036.02
+964,Customer_964,26,Male,Metro,134622.65,2024-10-06 00:07:28.144311,Referral,Active,Desktop,25.2,v1.8.6,0,0.0
+965,Customer_965,26,Female,Rural,49107.81,2024-11-27 00:07:28.144311,Social Media,Active,Desktop,26.84,v3.4.1,2,391.28
+966,Customer_966,29,Non-binary,Metro,132782.45,2024-11-17 00:07:28.144311,Organic,Active,Desktop,14.95,v1.5.4,16,812.7
+967,Customer_967,35,Male,Tier 2,82275.29,2024-11-17 00:07:28.144311,Social Media,Active,Mobile,24.18,v1.2.4,8,993.0
+968,Customer_968,62,Non-binary,Tier 2,90667.22,2024-12-06 00:07:28.144311,Ad Campaign,Active,Desktop,23.75,v3.1.0,17,1350.91
+969,Customer_969,52,Non-binary,Tier 1,142323.01,2024-09-30 00:07:28.144311,Organic,Inactive,Mobile,18.6,v1.5.1,13,2144.52
+970,Customer_970,51,Male,Rural,137125.25,2024-11-09 00:07:28.144311,Social Media,Active,Desktop,15.25,v3.7.8,1,188.46
+971,Customer_971,62,Male,Tier 1,40936.01,2024-11-17 00:07:28.144311,Referral,Inactive,Desktop,17.05,v3.4.2,8,2119.46
+972,Customer_972,39,Female,Rural,108418.57,2024-10-28 00:07:28.144311,Social Media,Active,Tablet,10.21,v2.0.1,14,3931.85
+973,Customer_973,60,Male,Tier 2,133254.32,2024-11-08 00:07:28.144311,Ad Campaign,Inactive,Mobile,27.27,v3.8.4,4,589.55
+974,Customer_974,69,Male,Rural,47583.45,2024-10-22 00:07:28.144311,Ad Campaign,Active,Tablet,12.27,v3.6.0,11,1992.89
+975,Customer_975,63,Non-binary,Rural,72670.5,2024-12-09 00:07:28.144311,Organic,Active,Mobile,16.1,v3.8.3,14,1287.66
+976,Customer_976,67,Male,Metro,81775.7,2024-12-09 00:07:28.144311,Ad Campaign,Active,Tablet,22.19,v3.8.1,4,592.44
+977,Customer_977,56,Non-binary,Tier 1,129775.42,2024-12-18 00:07:28.144311,Social Media,Active,Desktop,18.47,v2.0.4,13,2094.28
+978,Customer_978,30,Non-binary,Metro,104693.59,2024-10-12 00:07:28.144311,Social Media,New,Tablet,7.48,v1.7.0,19,2008.05
+979,Customer_979,57,Non-binary,Rural,133754.49,2024-10-02 00:07:28.144311,Social Media,Active,Desktop,19.94,v1.6.7,16,2557.79
+980,Customer_980,39,Female,Tier 1,49392.9,2024-11-10 00:07:28.144311,Ad Campaign,Active,Tablet,5.97,v2.1.6,11,639.27
+981,Customer_981,45,Female,Metro,37289.82,2024-11-19 00:07:28.144311,Ad Campaign,New,Mobile,29.55,v2.4.2,6,789.48
+982,Customer_982,52,Male,Rural,35103.5,2024-11-08 00:07:28.144311,Referral,Active,Tablet,8.41,v1.7.8,3,583.86
+983,Customer_983,32,Female,Tier 1,62780.06,2024-10-25 00:07:28.144311,Social Media,Inactive,Desktop,26.28,v1.7.0,0,0.0
+984,Customer_984,26,Male,Tier 1,118351.85,2024-11-12 00:07:28.144311,Ad Campaign,Active,Desktop,17.05,v3.3.2,16,1580.7
+985,Customer_985,44,Male,Tier 1,117775.97,2024-10-30 00:07:28.144311,Organic,Active,Tablet,26.93,v3.8.4,9,1813.94
+986,Customer_986,27,Male,Rural,40029.85,2024-11-25 00:07:28.144311,Ad Campaign,Active,Tablet,17.47,v1.0.7,8,1810.07
+987,Customer_987,62,Male,Tier 2,53867.27,2024-10-05 00:07:28.144311,Organic,Active,Tablet,17.06,v3.8.5,4,633.7
+988,Customer_988,29,Non-binary,Tier 1,55100.27,2024-12-10 00:07:28.144311,Referral,Inactive,Mobile,16.06,v2.1.2,8,1813.53
+989,Customer_989,42,Female,Tier 1,102237.12,2024-10-13 00:07:28.144311,Social Media,Inactive,Tablet,13.61,v3.8.4,7,578.72
+990,Customer_990,59,Male,Tier 1,73103.36,2024-10-26 00:07:28.144311,Ad Campaign,Active,Tablet,13.78,v2.6.6,1,65.98
+991,Customer_991,68,Female,Tier 2,97470.49,2024-12-20 00:07:28.144311,Referral,Active,Desktop,11.4,v1.5.6,10,2088.64
+992,Customer_992,48,Male,Metro,46221.0,2024-12-05 00:07:28.144311,Ad Campaign,Active,Tablet,15.2,v2.8.5,3,407.26
+993,Customer_993,62,Male,Tier 1,88153.53,2024-12-11 00:07:28.144311,Referral,Active,Desktop,29.04,v2.8.6,13,1944.18
+994,Customer_994,32,Female,Rural,81277.85,2024-10-17 00:07:28.144311,Ad Campaign,New,Desktop,21.92,v2.1.1,8,2114.66
+995,Customer_995,28,Male,Rural,57324.18,2024-12-20 00:07:28.144311,Organic,Active,Desktop,18.92,v2.1.7,16,1264.07
+996,Customer_996,34,Female,Rural,126179.78,2024-10-04 00:07:28.144311,Referral,Active,Tablet,26.15,v2.1.0,6,721.32
+997,Customer_997,27,Male,Metro,52190.46,2024-11-11 00:07:28.144311,Referral,Active,Mobile,14.36,v1.2.3,5,1000.25
+998,Customer_998,41,Non-binary,Rural,118269.33,2024-10-18 00:07:28.144311,Organic,Inactive,Tablet,11.42,v1.1.2,15,2742.72
+999,Customer_999,58,Male,Tier 1,48071.97,2024-12-06 00:07:28.144311,Referral,Active,Desktop,19.72,v3.3.3,3,606.57
+1000,Customer_1000,22,Male,Rural,104186.13,2024-10-25 00:07:28.144311,Referral,Active,Mobile,21.28,v1.1.2,11,2022.94
